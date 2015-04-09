@@ -1,0 +1,67 @@
+body{
+    background-color:#241B18;
+    font-family:Tahoma;
+}
+#bash, .uzak{
+    max-width: 1200px;
+    min-width: 940px;
+    clear:both;
+    margin:0 auto;
+}
+#bash a{
+    color:#ffc947;
+    text-decoration:none;
+    letter-spacing:1px;
+    text-transform: uppercase;
+    font-size:47px;
+}
+#bash h1{
+    float:left;
+}
+#telefon{
+    color:#ffc947;
+    letter-spacing:1px;
+    font-size:47px;
+    float:right;
+    margin-top:21px;
+}
+#jort{
+    color:#241B18;
+    background:#ffc947;
+    border-radius:3px;
+    padding-left:5px;
+    padding-right:5px;
+}
+#title{float:left;margin-top:16px;}
+#menu_uze{float:right;}
+#menu_uze li{display:inline-block;margin-left:20px;}
+#menu_uze li a{text-decoration:none;color:white;}
+#menu_uze li a:hover{color:#ffc947;}
+#bash_menu{
+    text-transform: uppercase;
+    color:white;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+.logo{
+    background:url('/rasem/mk/2014-05-30 07.55.19.jpg');
+    background-size:100% 100%;
+    width:43px;
+    height:43px;
+}
+.divar{
+    clear:both;
+    margin-left:auto;
+    margin-right:auto;
+    background:url('/rasem/taqta.png');
+    max-width: 1440px;
+    min-width: 940px;
+}
+.aq{
+    max-width: 1200px;
+    min-width: 940px;
+    clear:both;
+    margin:0 auto;
+    background:white;
+    min-height:300px;
+}
