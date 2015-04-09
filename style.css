@@ -2,6 +2,7 @@ body{
     background-color:#241B18;
     font-family:Tahoma;
 }
+.clear{clear:both;}
 #bash, .uzak{
     max-width: 1200px;
     min-width: 940px;
