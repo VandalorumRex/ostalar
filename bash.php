@@ -24,9 +24,24 @@
 					<li><a href="/basqych">на металкаркасе</a>
 				</ul>
 			</li>
-			<li><a href="/jihaz">Мебель</a></li>
-			<li><a href="/mk">Металлконструкции</a></li>
-			<li><a href="/ishek">Двери</a></li>
+			<li><a href="/jihaz">Мебель</a>
+				<ul>
+					<li><a href="/jihaz">корпусная мебель</a>
+					<li><a href="/jihaz">из массива</a>
+					<li><a href="/jihaz">кухни</a>
+				</ul>
+			</li>
+			<li><a href="/mk">Металлконструкции</a>
+				<ul>
+					<li><a href="/mk">павильоны</a>
+				</ul>
+			</li>
+			<li><a href="/ishek">Двери</a>
+				<ul>
+					<li><a href="/ishek">металлические</a>
+					<li><a href="/ishek">из массива</a>
+				</ul>
+			</li>
 		</ul>
 	</div>
 	<div class="clear"></div>
