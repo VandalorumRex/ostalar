@@ -17,8 +17,16 @@
 		<div id="title">Современные деревянные конструкции в строительстве</div>
 		<ul id="menu_uze">
 			<li><a href="/">Главная</a></li>
-			<li><a href="/basqych">Лестницы</a></li>
-			<li><a href="/tabyn">Столы</a></li>
+			<li><a href="/basqych">Лестницы</a>
+				<ul>
+					<li><a href="/basqych">косоурные</a>
+					<li><a href="/basqych">тетивные</a>
+					<li><a href="/basqych">на металкаркасе</a>
+				</ul>
+			</li>
+			<li><a href="/jihaz">Мебель</a></li>
+			<li><a href="/mk">Металлконструкции</a></li>
+			<li><a href="/ishek">Двери</a></li>
 		</ul>
 	</div>
 	<div class="clear"></div>
