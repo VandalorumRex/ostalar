@@ -34,12 +34,19 @@ body{
     padding-right:5px;
 }
 #title{float:left;margin-top:16px;}
-#menu_uze{float:right;}
-#menu_uze li{display:inline-block;margin-left:20px;}
+ul, li {
+    margin:0;
+    padding:0;
+    list-style-type:none;  
+}
+#menu_uze{float:right;padding-top:16px;postion:absolute;display:block;}
+#menu_uze li{display:inline-block;margin-left:20px;height:28px;}
+#menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;}
 #menu_uze li a{text-decoration:none;color:white;}
 #menu_uze li a:hover{color:#ffc947;}
-#menu_uze li ul{display:none;}
-#menu_uze li a:hover #menu_uze li ul{display:block;}
+#menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
+    margin-top:12px;background:#341B18;}
+#menu_uze li:hover ul{display:block;}
 #bash_menu{
     text-transform: uppercase;
     color:white;
