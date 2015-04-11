@@ -12,39 +12,7 @@
    <div id="telefon">245-48-03</div>
    <div class="clear"></div>
 </div>
-<div id="bash_menu">
-	<div class="uzak">
-		<div id="title">Современные деревянные конструкции в строительстве</div>
-		<ul id="menu_uze">
-			<li><a href="/">Главная</a></li>
-			<li><a href="/basqych">Лестницы</a>
-				<ul>
-					<li><a href="/basqych">косоурные</a>
-					<li><a href="/basqych">тетивные</a>
-					<li><a href="/basqych">на металкаркасе</a>
-				</ul>
-			</li>
-			<li><a href="/jihaz">Мебель</a>
-				<ul>
-					<li><a href="/jihaz">корпусная мебель</a>
-					<li><a href="/jihaz">из массива</a>
-					<li><a href="/jihaz">кухни</a>
-				</ul>
-			</li>
-			<li><a href="/mk">Металлконструкции</a>
-				<ul>
-					<li><a href="/mk">павильоны</a>
-				</ul>
-			</li>
-			<li><a href="/ishek">Двери</a>
-				<ul>
-					<li><a href="/ishek">металлические</a>
-					<li><a href="/ishek">из массива</a>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<div class="clear"></div>
+
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
 		(function (d, w, c) {
@@ -75,4 +43,4 @@
 	</script>
 	<noscript><div><img src="//mc.yandex.ru/watch/29640165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
-</div>
+
