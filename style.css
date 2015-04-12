@@ -19,6 +19,7 @@ body{
 #bash h1{
     float:left;
 }
+#title{text-transform: uppercase;}
 #telefon{
     color:#ffc947;
     letter-spacing:1px;

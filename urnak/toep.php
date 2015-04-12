@@ -1,7 +1,7 @@
 <div class="divar">
     <div class="aq">
         <script> var i=0;</script>
-        <h1><?=$APPLICATION->title?></h1>
+        <h1 id="title"><?=$APPLICATION->title?></h1>
         <?echo '<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>';?>
         <?/*foreach($suratlar as $surat):?>           
             <img src="<?=$surat?>" width="200px" height="100px"/>
