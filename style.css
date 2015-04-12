@@ -3,7 +3,7 @@ body{
     font-family:Tahoma;
 }
 .clear{clear:both;}
-#bash, .uzak{
+#bash, .uzak, #ajaq{
     max-width: 1200px;
     min-width: 940px;
     clear:both;
