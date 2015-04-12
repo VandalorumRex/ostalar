@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?></title>
+	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?> Казань Татарстан</title>
 	<link  rel="stylesheet" href="/style.css"/>
 	<meta charset="utf-8"/>
 	<meta name='yandex-verification' content='43e48888c64838c9' />
