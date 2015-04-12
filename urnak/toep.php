@@ -9,7 +9,7 @@
         <div id="surat">
            <img id="rasem" src="<?=$suratlar[0]?>" width="960px" height="480px"/> 
         </div>
-        
+        <br/>
         <script>           
         setInterval(function(){
             //$('#rasem').hide("slow");
