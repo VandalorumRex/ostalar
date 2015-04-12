@@ -1,6 +1,4 @@
 <?php
-include "bash.php";
-include "menu.php";
 $APPLICATION->title = $_SERVER['REDIRECT_URL']=='/'?'Строим дом':str_replace('/',' ',$_SERVER['REDIRECT_URL']);
 if($_SERVER['REDIRECT_URL'] == '/') {
     $rasemnar->july = 'rasem/mk';
@@ -12,5 +10,7 @@ if($_SERVER['REDIRECT_URL'] == '/') {
     }
     //echo '<pre>';print_r($suratlar);
 }
+include "bash.php";
+include "menu.php";
 include "urnak/toep.php";
 ?>

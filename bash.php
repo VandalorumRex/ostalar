@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
-	<title>Оста</title>
+	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?></title>
 	<link  rel="stylesheet" href="/style.css"/>
 	<meta charset="utf-8"/>
 	<meta name='yandex-verification' content='43e48888c64838c9' />
@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="bash">  
-   <h1><a href="/"><img src="/rasem/mk/11.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
+   <h1><a href="/"><img src="/rasem/mk/1.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
    <div id="telefon">(843) 245-48-03</div>
    <div class="clear"></div>
 </div>
