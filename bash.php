@@ -5,8 +5,8 @@
 	<link  rel="stylesheet" href="/style.css"/>
 	<meta charset="utf-8"/>
 	<meta name='yandex-verification' content='43e48888c64838c9' />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
-
 <body>
 <div id="bash">  
    <h1><a href="/"><img src="/rasem/mk/2014-05-30 07.55.19.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
