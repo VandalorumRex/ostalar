@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu>
-    <item name="главная" href="/"></item>
-    <item name="лестницы">
+    <item name="главная" tt="баш бит" href="/"></item>
+    <item name="лестницы" tt="баскычлар">
         <subitem>косоурные</subitem>
         <subitem>тетивные</subitem>
         <subitem>на металкаркасе</subitem>
     </item>
-    <item name="мебель">
+    <item name="мебель" tt="җиһаз">
         <subitem>корпусная</subitem>
         <subitem>из массива</subitem>
         <subitem>кухни</subitem>
@@ -14,7 +14,7 @@
     <item name="металлконструкция">
         <subitem>павильоны</subitem>
     </item>
-    <item name="двери">
+    <item name="двери" tt="ишекләр">
         <subitem>из массива</subitem>
         <subitem>металлические</subitem>
     </item>  

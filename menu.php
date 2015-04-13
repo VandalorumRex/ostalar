@@ -8,8 +8,9 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 		<ul id="menu_uze">
             <?foreach($menu as $item):?>
                 <?$it = (array)$item;?>
-                <?$href=isset($it['@attributes']['href'])?$it['@attributes']['href']:'/'.$it['@attributes']['name'];?>               
-                <li><a href="<?=$href?>" hreflang="ru"><?=$it['@attributes']['name']?></a>
+				<?$name = $APPLICATION->tele=='ru'?$it['@attributes']['name']:$it['@attributes']['tt']?>
+                <?$href=isset($it['@attributes']['href'])?$it['@attributes']['href']:'/'.$name;?>               
+                <li><a href="<?=$href?>" hreflang="<?=$APPLICATION->tele?>"><?=$it['@attributes']['name']?></a>
                 <?if(isset($it['subitem'])):?>
                     <ul>
                     <?if(is_array($it['subitem'])):?>

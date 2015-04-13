@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?> Казань Татарстан</title>
-	<link  rel="stylesheet" href="/style.css"/>
+	<link rel="stylesheet" href="/style.css"/>
+	<link rel="alternate" hreflang="ru" href="http://ostalar.tk//" />
+	<link rel="alternate" hreflang="tt" href="http://tt.ostalar.tk//" />
 	<meta charset="utf-8"/>
 	<meta name='yandex-verification' content='43e48888c64838c9' />
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
