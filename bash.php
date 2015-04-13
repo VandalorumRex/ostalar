@@ -5,6 +5,7 @@
 	<link  rel="stylesheet" href="/style.css"/>
 	<meta charset="utf-8"/>
 	<meta name='yandex-verification' content='43e48888c64838c9' />
+	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <body>
