@@ -2,6 +2,7 @@
 //phpinfo(); exit;
 $APPLICATION->title = $_SERVER['REDIRECT_URL']=='/'?'Строим дом':str_replace('/',' ',$_SERVER['REDIRECT_URL']);
 $APPLICATION->tele = substr($_SERVER["HTTP_HOST"],0,3)=='tt.'?'tt':'ru';
+//echo $APPLICATION->tele; exit;
 if($_SERVER['REDIRECT_URL'] == '/') {
     $rasemnar->july = 'rasem/mk';
     //include "rename.php";
