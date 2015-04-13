@@ -13,7 +13,11 @@
 </head>
 <body>
 <div id="bash">  
-   <h1><a href="/"><img src="/rasem/mk/1.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
+   <h1><a id="oeyga" href="/"><img src="/rasem/mk/1.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
+   <div id="versia">
+		<p><a href="http://ostalar.tk" hreflang="ru">русская версия</a></p>
+		<p><a href="http://ostalar.tk" hreflang="tt">татарча версия</a></p>
+   </div>
    <div id="telefon">(843) 245-48-03</div>
    <div class="clear"></div>
 </div>

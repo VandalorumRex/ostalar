@@ -9,7 +9,7 @@ body{
     clear:both;
     margin:0 auto;
 }
-#bash a{
+#bash #oeyga{
     color:#ffc947;
     text-decoration:none;
     letter-spacing:1px;
@@ -20,6 +20,8 @@ body{
     float:left;
 }
 #title{text-transform: uppercase;}
+#versia{float:right;margin-left: 10px;}
+#versia a{font-size:14px;color:white;}
 #telefon{
     color:#ffc947;
     letter-spacing:1px;
