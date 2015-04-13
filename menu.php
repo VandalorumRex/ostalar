@@ -9,7 +9,7 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
             <?foreach($menu as $item):?>
                 <?$it = (array)$item;?>
                 <?$href=isset($it['@attributes']['href'])?$it['@attributes']['href']:'/'.$it['@attributes']['name'];?>               
-                <li><a href="<?=$href?>"><?=$it['@attributes']['name']?></a>
+                <li><a href="<?=$href?>" hreflang="ru"><?=$it['@attributes']['name']?></a>
                 <?if(isset($it['subitem'])):?>
                     <ul>
                     <?if(is_array($it['subitem'])):?>
