@@ -11,7 +11,7 @@
         <subitem>из массива</subitem>
         <subitem>кухни</subitem>
     </item>
-    <item name="металлконструкция">
+    <item name="металлконструкции" tt="металлконструкцияләр">
         <subitem>павильоны</subitem>
     </item>
     <item name="двери" tt="ишекләр">

@@ -4,7 +4,8 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 ?>
 <div id="bash_menu">
 	<div class="uzak">
-		<div id="title">Современные деревянные конструкции в строительстве</div>
+		<?$title=$APPLICATION->tele=='ru'?'Современные деревянные конструкции в строительстве':'Төзелештәге хәзерге агач конструкцияләр'?>
+		<div id="title"><?=$title?></div>
 		<ul id="menu_uze">
             <?foreach($menu as $item):?>
                 <?$it = (array)$item;?>
