@@ -1,5 +1,5 @@
 <?
-$data = simplexml_load_string(file_get_contents("menu.xml"));
+$data = simplexml_load_string(file_get_contents("urnak/taswir.xml"));
 print '<pre>';print_r($data);
 ?>
 <div class="divar">
