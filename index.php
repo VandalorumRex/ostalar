@@ -17,6 +17,9 @@ if($_SERVER['REDIRECT_URL'] == '/') {
 }
 include "bash.php";
 include "menu.php";
-include "urnak/toep.php";
+if($_SERVER['REDIRECT_URL'] == '/')
+	include "urnak/toep.php";
+else
+	include "urnak/taswir.php";
 include "ajaq.php";
 ?>
