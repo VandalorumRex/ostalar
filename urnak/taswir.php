@@ -5,12 +5,12 @@ foreach($data as $item){
 	//print_r($item);
 	//print($item->name);
 	if($item->name==$url[1]) {
-		print_r($item->subitem);
+		$taswir = $item->subitem->taswir;
 	}
 }
 ?>
 <div class="divar">
     <div class="aq">
-	
+		<?=$taswir?>
     </div>
 </div>
