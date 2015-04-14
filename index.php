@@ -1,7 +1,7 @@
 <?php
 //phpinfo(); exit;
 $url = explode('/',$_SERVER['REDIRECT_URL']);
-print_r($url);
+//print_r($url);
 $APPLICATION->title = $_SERVER['REDIRECT_URL']=='/'?'Строим дом':str_replace('/',' ',$_SERVER['REDIRECT_URL']);
 $APPLICATION->tele = substr($_SERVER["HTTP_HOST"],0,3)=='tt.'?'tt':'ru';
 if($_SERVER['REDIRECT_URL']=='/' && $APPLICATION->tele=='tt') $APPLICATION->title='Йорт төзибез';
