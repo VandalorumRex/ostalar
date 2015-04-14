@@ -1,6 +1,6 @@
 <?
 $data = simplexml_load_string(file_get_contents("urnak/taswir.xml"));
-print '<pre>';//print_r($data);
+//print '<pre>';//print_r($data);
 foreach($data as $item){
 	//print_r($item);
 	//print($item->name);
