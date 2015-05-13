@@ -1,5 +1,5 @@
 body{
-    background-color:#341B18;
+    background:url('/rasem/buirana.jpg');
     font-family:Tahoma;
 }
 .clear{clear:both;}
@@ -45,10 +45,10 @@ ul, li {
 #menu_uze{float:right;padding-top:16px;postion:absolute;display:block;}
 #menu_uze li{display:inline-block;margin-left:20px;height:28px;}
 #menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;}
-#menu_uze li a{text-decoration:none;color:white;}
+#menu_uze li a{text-decoration:none;color:yellow;}
 #menu_uze li a:hover{color:#ffc947;}
 #menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
-    margin-top:12px;background:#341B18;}
+    margin-top:12px;background:url('/rasem/buirana.jpg')}
 #menu_uze li:hover ul{display:block;}
 #bash_menu{
     text-transform: uppercase;
@@ -58,7 +58,7 @@ ul, li {
     font-size:14px;
 }
 .logo{
-    background:url('/rasem/mk/11.jpg');
+    background:url('/rasem/yort/767.jpg');
     background-size:100% 100%;
     width:43px;
     height:43px;
@@ -67,7 +67,7 @@ ul, li {
     clear:both;
     margin-left:auto;
     margin-right:auto;
-    background:url('/rasem/taqta.png');
+    background:url('/rasem/buirana.jpg');
     max-width: 1440px;
 	
     min-width: 940px;
@@ -77,7 +77,7 @@ ul, li {
     min-width: 940px;
     clear:both;
     margin:0 auto;
-    background:white;
+    background:url('/rasem/buirana.jpg');
     min-height:300px;
 }
 #surat{clear:both; margin-left:auto;margin-right:auto;width:960px;}

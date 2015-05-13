@@ -3,8 +3,8 @@
 <head>
 	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?> Казань Татарстан</title>
 	<link rel="stylesheet" href="/style.css"/>
-	<link rel="alternate" hreflang="ru" href="http://ostalar.tk//" />
-	<link rel="alternate" hreflang="tt" href="http://tt.ostalar.tk//" />
+	<link rel="alternate" hreflang="ru" href="http://ostalar.tk/ru" />
+	<link rel="alternate" hreflang="tt" href="http://ostalar.tk/tt" />
 	<meta charset="utf-8"/>
 	<meta name='yandex-verification' content='43e48888c64838c9' />
 	<meta name='yandex-verification' content='68fd5fd180d98e78' />
@@ -14,7 +14,7 @@
 </head>
 <body>
 <div id="bash">  
-   <h1><a id="oeyga" href="/"><img src="/rasem/mk/1.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
+   <h1><a id="oeyga" href="/"><img src="/rasem/yort/0767.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
    <div id="versia">
 		<p><a href="http://<?=$_SERVER['HTTP_HOST']?>/ru" hreflang="ru">русская версия</a></p>
 		<p><a href="http://<?=$_SERVER['HTTP_HOST']?>/tt" hreflang="tt">татарча версия</a></p>
