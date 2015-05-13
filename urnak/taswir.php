@@ -4,7 +4,7 @@ $data = simplexml_load_string(file_get_contents("urnak/taswir.xml"));
 foreach($data as $item){
 	//print_r($item);
 	//print($item->name);
-	if($item->name==$url[1]) {
+	if($item->name==$url[2]) {
 		$taswir = $item->subitem->taswir;
 	}
 }

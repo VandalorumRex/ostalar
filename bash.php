@@ -16,13 +16,13 @@
 <div id="bash">  
    <h1><a id="oeyga" href="/"><img src="/rasem/mk/1.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
    <div id="versia">
-		<p><a href="http://ostalar.tk" hreflang="ru">русская версия</a></p>
-		<p><a href="http://tt.ostalar.tk" hreflang="tt">татарча версия</a></p>
+		<p><a href="http://<?=$_SERVER['HTTP_HOST']?>/ru" hreflang="ru">русская версия</a></p>
+		<p><a href="http://<?=$_SERVER['HTTP_HOST']?>/tt" hreflang="tt">татарча версия</a></p>
    </div>
    <div id="telefon">(843) 245-48-03</div>
    <div class="clear"></div>
 </div>
-
+<?if($_SERVER["HTTP_HOST"]=='ostalar.tk'):?>
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
 		(function (d, w, c) {
@@ -53,4 +53,4 @@
 	</script>
 	<noscript><div><img src="//mc.yandex.ru/watch/29640165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
-
+<?endif?>
