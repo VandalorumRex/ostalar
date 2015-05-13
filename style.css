@@ -80,3 +80,44 @@ ul, li {
     min-height:300px;
 }
 #surat{clear:both; margin-left:auto;margin-right:auto;width:960px;}
+.learnCarousel {
+	width:970px;
+	height:552px;
+	//overflow:hidden;
+	//position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	//margin-top:50px;
+	//margin-bottom:80px;
+	
+}
+
+.learnItem {
+	position:absolute;
+	top:0;
+	left:60px;
+	width:825px;
+	height:510px;
+	border:1px solid #ddd;
+	overflow:hidden;
+	border-radius:40px;
+}
+a.arrowLeft {
+	position:absolute;
+	top:219px;
+	left:1px;
+	width:37px;
+	height:76px;
+	display:inline-block;
+	background:url('/rasem/arrows.png') 0 0;
+}
+
+a.arrowRight {
+	position:absolute;
+	top:219px;
+	left:933px;
+	width:37px;
+	height:76px;
+	display:inline-block;
+	background:url('/rasem/arrows.png') -38px 0;
+}

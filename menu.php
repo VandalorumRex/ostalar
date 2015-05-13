@@ -10,13 +10,13 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
             <?foreach($menu as $item):?>
                 <?$it = (array)$item;?>
 				<?$name = $APPLICATION->tele=='ru'?$it['@attributes']['name']:$it['@attributes']['tt']?>
-                <?$href=isset($it['@attributes']['href'])?$it['@attributes']['href']:'/'.$name;?>               
+                <?$href="/".$APPLICATION->tele.(isset($it['@attributes']['href'])?$it['@attributes']['href']:'/'.$name);?>               
                 <li><a href="<?=$href?>" hreflang="<?=$APPLICATION->tele?>"><?=$name?></a>
                 <?if(isset($it['subitem'])):?>
                     <ul>
                     <?if(is_array($it['subitem'])):?>
                         <?foreach($it['subitem'] as $subitem):?>
-                            <li><a href="/<?=$it['@attributes']['name']?>/<?=$subitem?>"><?=$subitem?></a></li>
+                            <li><a href="/<?=$APPLICATION->tele."/".$it['@attributes']['name']?>/<?=$subitem?>"><?=$subitem?></a></li>
                         <?endforeach?>
                     <?else:?>
                         <li><a href="/<?=$it['@attributes']['name']?>/<?=$it['subitem']?>"><?=$it['subitem']?></a></li>

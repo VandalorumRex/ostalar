@@ -1,5 +1,5 @@
 RewriteEngine on
 Options +FollowSymlinks
 RewriteBase /
-RewriteCond %{REQUEST_URI} !^/(yandex_43e48888c64838c9.html|index.php|style.css|(rasem|urnak)/)
+RewriteCond %{REQUEST_URI} !^/(yandex_43e48888c64838c9.html|index.php|robots.txt|style.css|maghlumat.php|(rasem|urnak)/)
 RewriteRule (.*?)   /index.php   [L,QSA]
