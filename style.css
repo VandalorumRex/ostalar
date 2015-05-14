@@ -79,7 +79,7 @@ ul, li {
     clear:both;
     margin-left:auto;
     margin-right:auto;
-    background:white;//url('/rasem/buirana.jpg');
+    //background:white;//url('/rasem/buirana.jpg');
     max-width: 1440px;
 	
     min-width: 940px;
@@ -89,7 +89,7 @@ ul, li {
     min-width: 940px;
     clear:both;
     margin:0 auto;
-    background:white;//url('/rasem/buirana.jpg');
+    //background:white;//url('/rasem/buirana.jpg');
     min-height:300px;
 }
 #surat{clear:both; margin-left:auto;margin-right:auto;width:960px;}
