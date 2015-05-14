@@ -8,7 +8,7 @@
         <?endforeach*/?>
         <div id="surat">
            <!--img id="rasem" src="<?=$suratlar[0]?>" width="960px" height="480px"/--> 
-		   <div id="rasem" style="clear:both;margin-left:auto;margin-right:auto;width:960px;height:720px;background:url(<?=$suratlar[0]?>) no-repeat;background-size:contain;"></div>
+		   <div id="rasem" style="border-radius:30px;clear:both;margin-left:auto;margin-right:auto;width:960px;height:720px;background:url(<?=$suratlar[0]?>) no-repeat;background-size:contain;"></div>
         </div>
         <br/>
         <script>           
