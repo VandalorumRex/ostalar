@@ -1,9 +1,14 @@
 body{
-    background:white;
+    background:url('/rasem/kuk.jpg');
+    background-size:100% 100%;
     font-family:Tahoma;
 }
 .clear{clear:both;}
-#bash, .uzak, #ajaq{
+#bash{
+   //background:url('/rasem/kuk.jpg');
+   //background-size:100% 100%;
+}
+.uzak, #ajaq{
     max-width: 1200px;
     min-width: 940px;
     clear:both;
@@ -24,8 +29,8 @@ body{
 }
 #title{text-transform: uppercase;}
 #versia{float:right;margin-left: 10px;}
-#versia a{font-size:14px;color:#777;}
-#versia a:hover{font-size:14px;color:#753;}
+#versia a{font-size:14px;color:white;}
+#versia a:hover{font-size:14px;color:yellow;}
 #telefon{
     color:red;
     letter-spacing:1px;
@@ -57,8 +62,9 @@ ul, li {
 #bash_menu{
     text-transform: uppercase;
     color:#241B18;
-    border-top:1px solid white;
-    border-bottom:1px solid white;
+   // border-top:1px solid white;
+   // border-bottom:1px solid white;
+   border-radius:10px;
     font-size:14px;
     background:aqua;
     //position:fixed;

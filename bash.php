@@ -13,14 +13,16 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <body>
-<div id="bash">  
-   <h1><a id="oeyga" href="/"><img src="/rasem/yort/0767.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
-   <div id="versia">
-		<p><a href="http://<?=$_SERVER['HTTP_HOST']?>/ru" hreflang="ru">русская версия</a></p>
-		<p><a href="http://<?=$_SERVER['HTTP_HOST']?>/tt" hreflang="tt">татарча версия</a></p>
+<div id="bash">
+	<div class="uzak">
+		<h1><a id="oeyga" href="/"><img src="/rasem/yort/0767.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
+		<div id="versia">
+			 <p><a href="http://<?=$_SERVER['HTTP_HOST']?>/ru" hreflang="ru">русская версия</a></p>
+			 <p><a href="http://<?=$_SERVER['HTTP_HOST']?>/tt" hreflang="tt">татарча версия</a></p>
+		</div>
+		<div id="telefon">(843) 245-48-03</div>
+		<div class="clear"></div>
    </div>
-   <div id="telefon">(843) 245-48-03</div>
-   <div class="clear"></div>
 </div>
 <?if($_SERVER["HTTP_HOST"]=='ostalar.tk'):?>
 	<!-- Yandex.Metrika counter -->
