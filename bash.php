@@ -25,7 +25,7 @@
 		<div class="clear"></div>
    </div>
 </div>
-<?if($_SERVER["HTTP_HOST"]=='ostalar.tk'):?>
+<?if($body_domain=='ostalar'):?>
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
 		(function (d, w, c) {
