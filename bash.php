@@ -8,6 +8,7 @@
 	<meta charset="utf-8"/>
 	<meta name='yandex-verification' content='43e48888c64838c9' />
 	<meta name='yandex-verification' content='68fd5fd180d98e78' />
+	<meta name='yandex-verification' content='4279c116cd7a9e02' />
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
