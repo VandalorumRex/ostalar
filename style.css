@@ -16,6 +16,7 @@ body{
     //background:yellow;
     //position:fixed;
 }
+#ajaq{color: white}
 #bash #oeyga{
     color:orange;
     text-decoration:none;
@@ -32,7 +33,7 @@ body{
 #versia a{font-size:14px;color:white;}
 #versia a:hover{font-size:14px;color:yellow;}
 #telefon{
-    color:red;
+    color:orange;
     letter-spacing:1px;
     font-size:47px;
     float:right;

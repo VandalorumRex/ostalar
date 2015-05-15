@@ -21,7 +21,7 @@
 			 <p><a href="http://<?=$body_domain?>.ru" hreflang="ru">русская версия</a></p>
 			 <p><a href="http://<?=$body_domain?>.tk" hreflang="tt">татарча версия</a></p>
 		</div>
-		<div id="telefon">(843) 245-48-03</div>
+		<div id="telefon"><?=$phone[time() % 2]?></div>
 		<div class="clear"></div>
    </div>
 </div>
