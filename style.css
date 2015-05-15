@@ -90,6 +90,14 @@ ul, li {
     clear:both;
     margin:0 auto;
     //background:white;//url('/rasem/buirana.jpg');
-    min-height:300px;
+    min-height:500px;
+}
+.suz{
+    background:white;
+    clear:both;
+    border-radius:30px;
+    margin:0,auto;
+    max-width: 1200px;
+    min-width: 940px;
 }
 #surat{clear:both; margin-left:auto;margin-right:auto;width:960px;}
