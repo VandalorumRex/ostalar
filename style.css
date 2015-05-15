@@ -54,19 +54,19 @@ ul, li {
 #menu_uze{float:right;padding-top:16px;postion:absolute;display:block;}
 #menu_uze li{display:inline-block;margin-left:20px;height:28px;}
 #menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
-#menu_uze li a{text-decoration:none;color:#241B18;}
-#menu_uze li a:hover{color:#753;}
+#menu_uze li a{text-decoration:none;color:yellow;}
+#menu_uze li a:hover{color:white;}
 #menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
     margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
 #menu_uze li:hover ul{display:block;}
 #bash_menu{
     text-transform: uppercase;
-    color:#241B18;
+    color:white;
    // border-top:1px solid white;
    // border-bottom:1px solid white;
    border-radius:10px;
     font-size:14px;
-    background:aqua;
+    background:url('/rasem/buirana.jpg');
     //position:fixed;
 }
 .logo{

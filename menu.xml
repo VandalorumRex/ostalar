@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <menu>
     <item name="главная" tt="баш бит" href="/"></item>
+    <item name="дома" tt="йортлар"></item>
     <item name="лестницы" tt="баскычлар">
         <subitem>косоурные</subitem>
         <subitem>тетивные</subitem>

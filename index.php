@@ -20,6 +20,7 @@ if($url[1] || in_array($_SERVER['REDIRECT_URL'],array('/'))) {
 	else if(in_array($url[1],array('мебель','җиһаз')))    $rasemnar->july = 'rasem/cihaz';
 	else if(in_array($url[1],array('металлконструкции','металлконструкцияләр')))    $rasemnar->july = 'rasem/mk';
 	else if(in_array($url[1],array('двери','ишекләр')))    $rasemnar->july = 'rasem/ishek';
+	else if(in_array($url[1],array('дома','йортлар')))  $rasemnar->july = 'rasem/yort';
 	else if(in_array($_SERVER['REDIRECT_URL'],array('/'))) $rasemnar->july = 'rasem/yort';
     if($rasemnar->july) {
 		$rasemnar->jyyylmasy = opendir($rasemnar->july);
