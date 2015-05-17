@@ -15,7 +15,7 @@ $APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/')))?'Стро�
 $APPLICATION->tele = ($last_domain=='tk')?'tt':'ru';
 if((in_array($_SERVER['REDIRECT_URL'],array('/'))) && $APPLICATION->tele=='tt') $APPLICATION->title='Йорт төзибез';
 $APPLICATION->keywords = $APPLICATION->tele=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
-//echo $APPLICATION->tele; exit;
+print_r($url);
 if($url[1] || in_array($_SERVER['REDIRECT_URL'],array('/'))) {
 	if(in_array($url[1],array('лестницы','баскычлар')))    $rasemnar->july = 'rasem/basqych';
 	else if(in_array($url[1],array('мебель','җиһаз')))    $rasemnar->july = 'rasem/cihaz';
