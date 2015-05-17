@@ -3,8 +3,8 @@
 $APPLICATION = (object)array('title','tele','keywords');
 $rasemnar = (object)array('july','jyyylmasy');
 $url = explode('/',$_SERVER['REDIRECT_URL']);
-$url = explode('/',$_ENV['PWD']);
-print_r($url);
+//$url = explode('/',$_ENV['PWD']);
+//print_r($url);
 //if($_SERVER['REDIRECT_URL']=='/') 
 //	header('Location: /ru');
 $host = explode(".",$_SERVER['HTTP_HOST']);
