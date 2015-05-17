@@ -13,7 +13,7 @@ unset($host[count($host)-1]);
 $body_domain = implode(".",$host);
 $phone = array("(843) 245-48-03","+7-960-038-56-73");
 $APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/')))?'Строим дом':str_replace('/',' ',$url[1]);
-$APPLICATION->tele = ($last_domain=='tk')?'tt':'ru';
+$APPLICATION->tele = ($last_domain=='tk' || $last_domain=='net')?'tt':'ru';
 if((in_array($_SERVER['REDIRECT_URL'],array('/'))) && $APPLICATION->tele=='tt') $APPLICATION->title='Йорт төзибез';
 $APPLICATION->keywords = $APPLICATION->tele=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
 //print_r($url);
