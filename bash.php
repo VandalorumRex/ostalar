@@ -18,7 +18,7 @@
 	<div class="uzak">
 		<h1><a id="oeyga" href="/"><img src="/rasem/yort/0767.jpg" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
 		<div id="versia">
-			 <p><a href="http://<?=$body_domain?>.ru" hreflang="ru">русская версия</a></p>
+			 <p><a href="http<?($_SERVER["HTTPS"]=='on')?'s':''?>://<?=$body_domain?>.ru" hreflang="ru">русская версия</a></p>
 			 <p><a href="http://<?=$body_domain?>.tk" hreflang="tt">татарча версия</a></p>
 		</div>
 		<div id="telefon"><?=$phone[time() % 2]?></div>
