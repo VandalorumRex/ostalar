@@ -12,6 +12,11 @@
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$("a.gallery").fancybox();
+	});
+	</script>
 </head>
 <body>
 <div id="bash">

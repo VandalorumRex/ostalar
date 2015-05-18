@@ -14,7 +14,9 @@
         <?echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
         <div align="center">
         <?foreach($suratlar as $surat):?>           
-            <img src="<?=$surat?>" width="200px" height="100px"/>
+            <a class="gallery" rel="group" title="это фото 1" href="<?=$surat?>">
+				<img src="<?=$surat?>" width="200px" height="100px"/>
+			</a>
         <?endforeach?>
         </div>
         

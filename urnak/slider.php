@@ -5,8 +5,10 @@
         <?echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
 		<div class="clear"></div>
 		<div align="center">
-        <?foreach($suratlar as $surat):?>           
-            <img src="<?=$surat?>" width="200px" height="100px"/>
+        <?foreach($suratlar as $surat):?>
+			<a class="gallery" rel="group" title="это фото 1" href="<?=$surat?>">
+				<img src="<?=$surat?>" width="200px" height="100px"/>
+			</a>
         <?endforeach?>
 		</div>
         <?/*div id="surat">
