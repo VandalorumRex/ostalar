@@ -15,7 +15,7 @@
 	<script type="text/javascript">
 	$(document).ready(function() {
 		$("a.gallery").fancybox({						
-			"padding" : 20,
+			"padding" : 20px,
 			"imageScale" : false, 
 			"zoomOpacity" : false,
 			"zoomSpeedIn" : 1000,	
