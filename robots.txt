@@ -1,13 +1,2 @@
 User-agent: *
 Host: https://ostalar.ru
-Host: https://www.ostalar.ru
-Host: ostalar.ru
-Host: www.ostalar.ru
-Host: ostalar.tk
-Host: www.ostalar.tk
-Host: ostalar.com
-Host: www.ostalar.com
-Host: ostalar.net
-Host: www.ostalar.net
-Host: xn--80aa6aknch.xn--p1ai
-Host: www.xn--80aa6aknch.xn--p1ai
