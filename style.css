@@ -63,6 +63,12 @@ ul, li {
     -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0);
     -o-transform: matrix(1, 0, -0.5, 1, 0, 0);
     -ms-transform: matrix(1, 0, -0.5, 1, 0, 0);
+    
+    transition: top 1s ease-out 0.5s;
+    -webkit-transition: top 1s ease-out 0.5s;
+     -moz-transition: top 1s ease-out 0.5s;
+     -o-transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
 }
 #menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
     margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
@@ -114,10 +120,4 @@ ul, li {
 #surat{clear:both; margin-left:auto;margin-right:auto;width:960px;}
 a.gallery img{
    
-    
-    transition: top 1s ease-out 0.5s;
-    -webkit-transition: top 1s ease-out 0.5s;
-     -moz-transition: top 1s ease-out 0.5s;
-     -o-transition: top 1s ease-out 0.5s;
-     transition: top 1s ease-out 0.5s;
 }
