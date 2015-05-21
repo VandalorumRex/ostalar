@@ -55,7 +55,14 @@ ul, li {
 #menu_uze{float:right;padding-top:16px;postion:absolute;display:block;}
 #menu_uze li{display:inline-block;margin-left:20px;height:28px;}
 #menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
-#menu_uze li a{text-decoration:none;color:yellow;}
+#menu_uze li a{
+    text-decoration:none;color:yellow;
+    transition: top 1s ease-out 0.5s;
+    -webkit-transition: top 1s ease-out 0.5s;
+     -moz-transition: top 1s ease-out 0.5s;
+     -o-transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+}
 #menu_uze li a:hover{
     color:white;
      transform: matrix(1, 0, -0.5, 1, 0, 0);
@@ -64,11 +71,7 @@ ul, li {
     -o-transform: matrix(1, 0, -0.5, 1, 0, 0);
     -ms-transform: matrix(1, 0, -0.5, 1, 0, 0);
     
-    transition: top 1s ease-out 0.5s;
-    -webkit-transition: top 1s ease-out 0.5s;
-     -moz-transition: top 1s ease-out 0.5s;
-     -o-transition: top 1s ease-out 0.5s;
-     transition: top 1s ease-out 0.5s;
+    
 }
 #menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
     margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
