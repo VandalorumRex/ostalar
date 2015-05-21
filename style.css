@@ -64,7 +64,7 @@ ul, li {
     transition-duration: 2s;
 }
 #menu_uze li a:hover{
-    color:white; font-size:14px;
+    color:white; font-size:16px;
      transform: matrix(1, 0, -0.5, 1, 0, 0);
     -moz-transform: matrix(1, 0, -0.5, 1, 0, 0);
     -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0);
