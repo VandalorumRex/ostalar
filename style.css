@@ -33,11 +33,14 @@ body{
 #versia a{font-size:14px;color:white;}
 #versia a:hover{font-size:14px;color:yellow;}
 #telefon{
+    background: url('/rasem/trubka.png') no-repeat;
+    background-size: 55px 55px;
     color:orange;
     letter-spacing:1px;
     font-size:47px;
     float:right;
     margin-top:21px;
+    padding-left:60px;
 }
 #jort{
     color:#241B18;
