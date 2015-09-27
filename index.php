@@ -9,10 +9,10 @@ if($_SERVER['REDIRECT_URL']=='/') {
 }        
 $phone = array("(843) 245-48-03","(843) 245-35-51");
 $APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',$url[2]);
-$APPLICATION->tele = ($url[1]=='tt')?'tt':'ru';
-if((in_array($_SERVER['REDIRECT_URL'],array('/tt','/tt/'))) && $APPLICATION->tele=='tt') $APPLICATION->title='Йорт төзибез';
-$APPLICATION->keywords = $APPLICATION->tele=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
-//echo $APPLICATION->tele; exit;
+$tel = ($url[1]=='tt')?'tt':'ru';
+if((in_array($_SERVER['REDIRECT_URL'],array('/tt','/tt/'))) && $tel=='tt') $APPLICATION->title='Йорт төзибез';
+$APPLICATION->keywords = $tel=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
+
 if($url[2] || in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/')))
 {
 	if(in_array($url[2],array('лестницы','баскычлар')))    $rasemnar->july = 'rasem/basqych';
