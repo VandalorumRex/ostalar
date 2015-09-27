@@ -13,7 +13,7 @@
 	<meta name="google-site-verification" content="9LmeuCKZ5B6mhd72djDF6sKwUJadrrOSM0Xc4JO2RHo" />
 	
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>">
-	<script type="text/javascript" src="/script/fancybox/lib/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="/script/jquery-1.11.3.min.js"></script>
          <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="/script/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
@@ -29,8 +29,9 @@
         <link rel="stylesheet" href="/script/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
         <script type="text/javascript" src="/script/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	
-        <script type="text/javascript">
-	/*$(document).ready(function() {
+        <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
+        <script>
+	$(document).ready(function() {
 		$("a.gallery").fancybox({						
 			"padding" : 20,
 			"imageScale" : false, 
@@ -46,7 +47,7 @@
 			"centerOnScroll" : false
 				
 			});
-	});*/
+	});
 	</script>
 </head>
 <body>

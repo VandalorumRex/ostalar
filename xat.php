@@ -4,8 +4,8 @@ $to = 'gho-mansur@yandex.ru';
 $subject = 'Заказ';
 //if($tel=='ru')
 {
-    $message = 'Имя: '.filter_input(INPUT_POST, 'isem').'<br />'
-            .'Телефон: '.filter_input(INPUT_POST, 'tilifun').'<br />'
+    $message = 'Имя: '.filter_input(INPUT_POST, 'isem')."\n"
+            .'Телефон: '.filter_input(INPUT_POST, 'tilifun')."\n"
             .'Страница заявки: '.$bit;
 }
 $xat = mail($to, $subject, $message);
