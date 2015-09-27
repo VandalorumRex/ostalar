@@ -58,8 +58,9 @@ if($xat=='kitte'){
 ?>
 <script  type="text/javascript">
 $(document).ready(function() {
-    
-    $("a.gallery").fancybox({						
+    $j = jQuery.noConflict();
+    $j(function(){
+           $j("a.gallery").fancybox({						
             "padding" : 20,
             "imageScale" : false, 
             "zoomOpacity" : false,
@@ -74,6 +75,8 @@ $(document).ready(function() {
             "centerOnScroll" : false
 
             });
+        $j('#tilifun').mask("+7(999) 999-99-99");
+    });
     
          
 });
