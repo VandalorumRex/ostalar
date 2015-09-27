@@ -156,7 +156,7 @@ h1{
     color:#EEE;
 }
 a.gallery:not(:first-child){
-    display:none;
+    //display:none;
 }
 a.gallery img{
     border-radius:20px;

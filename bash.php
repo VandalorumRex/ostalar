@@ -31,7 +31,8 @@
         <link rel="stylesheet" href="/script/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
         <script type="text/javascript" src="/script/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	
-        
+        <link href="/amazon-style-image-scroller-master/css/amazon_scroller.css" rel="stylesheet" type="text/css"></link>
+        <script type="text/javascript" src="/amazon-style-image-scroller-master/js/amazon_scroller.js"></script>
         
 </head>
 <body>

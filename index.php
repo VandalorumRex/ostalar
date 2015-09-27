@@ -58,25 +58,23 @@ if($xat=='kitte'){
 ?>
 <script  type="text/javascript">
 $(document).ready(function() {
-    $j = jQuery.noConflict();
-    $j(function(){
-           $j("a.gallery").fancybox({						
-            "padding" : 20,
-            "imageScale" : false, 
-            "zoomOpacity" : false,
-            "zoomSpeedIn" : 1000,	
-            "zoomSpeedOut" : 1000,	
-            "zoomSpeedChange" : 1000, 
-            "frameWidth" : 700,	 
-            "frameHeight" : 600, 
-            "overlayShow" : true, 
-            "overlayOpacity" : 0.8,	
-            "hideOnContentClick" :false,
-            "centerOnScroll" : false
-
-            });
-        $j('#tilifun').mask("+7(999) 999-99-99");
-    });
+    $(function() {
+                $("#amazon_scroller1").amazon_scroller({
+                    scroller_title_show: 'enable',
+                    scroller_time_interval: '4000',
+                    scroller_window_background_color: "#CCC",
+                    scroller_window_padding: '10',
+                    scroller_border_size: '1',
+                    scroller_border_color: '#000',
+                    scroller_images_width: '124',
+                    scroller_images_height: '160',
+                    scroller_title_size: '12',
+                    scroller_title_color: 'black',
+                    scroller_show_count: '4',
+                    directory: 'images'
+                });
+        //$j('#tilifun').mask("+7(999) 999-99-99");
+    
     
          
 });
