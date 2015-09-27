@@ -37,7 +37,7 @@
 <body>
 <div id="bash">
 	<div class="uzak">
-		<h1><a id="oeyga" href="/"><img src="/rasem/shoerepborghych.png" width="50px" height="50px" align="top"/> Оста <span id="jort">лар</span></a></h1>
+		<h1><a id="oeyga" href="/"><img src="/rasem/shoerepborghych.png" width="60px" height="60px" align="top"/> Оста <span id="jort">лар</span></a></h1>
 		<div id="versia">
 			 <p><a href="/ru" hreflang="ru">русская версия</a></p>
 			 <p><a href="/tt" hreflang="tt">татарча версия</a></p>
