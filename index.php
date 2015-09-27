@@ -15,6 +15,10 @@ $APPLICATION->keywords = $tel=='tt'?'баскычлар, ишекләр, җиһ�
 if(filter_input(INPUT_POST,'zakaz_jasaw')){
     include "xat.php";
 }
+$xat = filter_input(INPUT_COOKIE, 'xat');
+if($xat>''){
+    setcookie('xat', 'kitmade', time()-86400);
+}
 if($url[2] || in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/')))
 {
 	if(in_array($url[2],array('лестницы','баскычлар')))    $rasemnar->july = 'rasem/basqych';
@@ -48,4 +52,7 @@ else if(isset($url[2])){
 //else 
 //	include "urnak/taswir.php";
 include "ajaq.php";
+if($xat=='kitte'){
+    include "urnak/qotlaw.php";
+}
 ?>
