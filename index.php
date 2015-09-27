@@ -56,7 +56,7 @@ if($xat=='kitte'){
     include "urnak/qotlaw.php";
 }
 ?>
-<script>
+<script  type="text/javascript">
 $(document).ready(function() {
     //$('#tilifun').mask("+7(999) 999-99-99");
     $("a.gallery").fancybox({						

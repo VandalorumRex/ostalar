@@ -8,3 +8,8 @@
     <input name="tilifun" id="tilifun" placeholder="<?=$tilifun[$tel]?>" type="text" required="" />
     <input name="zakaz_jasaw" value="<?=$zakaz[$tel]?>" type="submit" />
 </form>
+<script type="text/javascript">
+
+    $('#tilifun').mask("+7(999) 999-99-99");
+
+</script>
