@@ -8,7 +8,7 @@
 		<div align="center">
         <?php foreach($suratlar as $surat):?>
 			<a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$surat?>">
-				<img src="<?=$surat?>" width="200px" height="100px"/>
+				<img src="<?=$surat?>" width="720px"/>
 			</a>
         <?php endforeach?>
 		</div>
