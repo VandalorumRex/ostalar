@@ -1,4 +1,4 @@
-<?
+<?php
 $i=1;
 $rasemnar->jyyylmasy = opendir($rasemnar->july);
     while (false !== ($rasem = readdir($rasemnar->jyyylmasy))){

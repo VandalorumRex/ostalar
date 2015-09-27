@@ -47,4 +47,3 @@ else if(isset($url[1]))
 //else 
 //	include "urnak/taswir.php";
 include "ajaq.php";
-?>

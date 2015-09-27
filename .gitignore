@@ -2,3 +2,5 @@
 /MyProject.komodoproject
 /.komodotools/
 /rasem/butan/*
+/nbproject/private/
+/nbproject/*

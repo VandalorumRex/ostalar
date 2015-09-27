@@ -1,4 +1,4 @@
-<?
+<?php
 $menu = simplexml_load_string(file_get_contents("menu.xml"));
 //print '<pre>';print_r($menu);print '</pre>';
 ?>
