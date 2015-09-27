@@ -57,6 +57,7 @@ if($xat=='kitte'){
 }
 ?>
 <script>
+$('#tilifun').mask("+7(999) 999-99-99");
 $(document).ready(function() {
         $("a.gallery").fancybox({						
                 "padding" : 20,
