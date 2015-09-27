@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?> Казань Татарстан</title>
-        <script src="/script/1.11.3/jquery.min.js"></script>
+        <script src="/script/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="script/jquery.maskedinput.min.js"></script>
 	<link rel="stylesheet" href="/style.css"/>
 	<link rel="alternate" hreflang="ru" href="http://ostalar.ru/ru" />
