@@ -10,9 +10,9 @@
 </form>
 <script>
 
-   /* $j = jQuery.noConflict();
+   $j = jQuery.noConflict();
     $j(function(){
         $j('#tilifun').mask("+7(999) 999-99-99");   
-    });*/
+    });
 
 </script>
