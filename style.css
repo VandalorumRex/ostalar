@@ -1,5 +1,5 @@
 body{
-    background:#789fd6;//url('/rasem/kuk.jpg');
+    background:linear-gradient(to left,#679fd6 0%, #89bfd6 100%);//url('/rasem/kuk.jpg');
     background-size:100% 100%;
     font-family:Tahoma;
 }
@@ -131,6 +131,7 @@ a.gallery img{
 form{
     clear:both;
     text-align: center;
+    margin-bottom:20px;
 }
 input{
     height:30px;
@@ -150,4 +151,7 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background:linear-gradient(to bottom right, #e28720 0%, #f16e24 100%);
+}
+h1{
+    color:#EEE;
 }
