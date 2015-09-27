@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?> Казань Татарстан</title>
+        <script type="text/javascript" src="script/jquery-1.11.3.min.js"></script>
 	<link rel="stylesheet" href="/style.css"/>
 	<link rel="alternate" hreflang="ru" href="http://ostalar.ru/ru" />
 	<link rel="alternate" hreflang="tt" href="http://ostalar.ru/tt" />
@@ -13,7 +14,7 @@
 	<meta name="google-site-verification" content="9LmeuCKZ5B6mhd72djDF6sKwUJadrrOSM0Xc4JO2RHo" />
 	
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>">
-	<script type="text/javascript" src="/script/jquery-1.11.3.min.js"></script>
+	
          <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="/script/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
@@ -30,25 +31,7 @@
         <script type="text/javascript" src="/script/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	
         <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
-        <script>
-	$(document).ready(function() {
-		$("a.gallery").fancybox({						
-			"padding" : 20,
-			"imageScale" : false, 
-			"zoomOpacity" : false,
-			"zoomSpeedIn" : 1000,	
-			"zoomSpeedOut" : 1000,	
-			"zoomSpeedChange" : 1000, 
-			"frameWidth" : 700,	 
-			"frameHeight" : 600, 
-			"overlayShow" : true, 
-			"overlayOpacity" : 0.8,	
-			"hideOnContentClick" :false,
-			"centerOnScroll" : false
-				
-			});
-	});
-	</script>
+        
 </head>
 <body>
 <div id="bash">

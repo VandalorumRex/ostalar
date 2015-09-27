@@ -1,6 +1,5 @@
 <script>
-    //alert('Q');
-    $.fancybox.open({
-        'content' : 'Вы отправили заказ!'
-    });
+$(document).ready(function() {
+    alert('zakaz');
+});
 </script>
