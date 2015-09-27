@@ -1,5 +1,5 @@
 <script>
 $(document).ready(function() {
-    alert('zakaz');
+    $.fancybox({content : 'Ваш заказ принят!'});
 });
 </script>
