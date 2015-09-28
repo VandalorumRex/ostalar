@@ -1,6 +1,6 @@
 <?php 
 $bit = 'http://'.filter_input(INPUT_SERVER,"HTTP_HOST").filter_input(INPUT_SERVER,"REQUEST_URI");
-$to = 'gho-mansur@yandex.ru';
+$to = 'gho-mansur@yandex.ru, bashirovilnar@mail.ru';
 $subject = 'Заказ';
 //if($tel=='ru')
 {
