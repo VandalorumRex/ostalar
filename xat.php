@@ -13,7 +13,7 @@ else{
             .'Телефоны: '.filter_input(INPUT_POST, 'tilifun')."\n"
             .'Кызыксына: '. $url[2];
 }
-$headers = 'From: Осталар <xat@ostalar.ru>'."\r\n";//. 'Reply-To: <xat@ostalar.ru>' . "\r\n" .
+$headers = 'From: Ostalar <xat@ostalar.ru>'."\r\n";//. 'Reply-To: <xat@ostalar.ru>' . "\r\n" .
     //'X-Mailer: PHP/' . phpversion();
 $xat = mail($to, $subject, $message,$headers);
 if($xat){
