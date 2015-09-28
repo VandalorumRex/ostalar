@@ -6,12 +6,12 @@ if($tel=='ru')
 {
     $message = 'Имя: '.filter_input(INPUT_POST, 'isem')."\n"
             .'Телефон: '.filter_input(INPUT_POST, 'tilifun')."\n"
-            .'Интерес: '.filter_input(INPUT_SERVER,"REQUEST_URI");
+            .'Интерес: '.urldecode(filter_input(INPUT_SERVER,"REQUEST_URI"));
 }
 else{
     $message = 'Исеме: '.filter_input(INPUT_POST, 'isem')."\n"
             .'Телефоны: '.filter_input(INPUT_POST, 'tilifun')."\n"
-            .'Кызыксына: '.filter_input(INPUT_SERVER,"REQUEST_URI");
+            .'Кызыксына: '. urlencode(filter_input(INPUT_SERVER,"REQUEST_URI"));
 }
 $xat = mail($to, $subject, $message);
 if($xat){
