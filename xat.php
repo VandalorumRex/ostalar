@@ -13,8 +13,8 @@ else{
             .'Телефоны: '.filter_input(INPUT_POST, 'tilifun')."\n"
             .'Кызыксына: '. $url[2];
 }
-$headers = 'From: jawap-birma@ostalar.ru';
-$xat = mail($to, $subject, $message);
+$headers = 'From: xat@ostalar.ru';
+$xat = mail($to, $subject, $message,$headers);
 if($xat){
     setcookie('xat','kitte',time()+60);
 }
