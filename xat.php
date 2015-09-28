@@ -11,7 +11,7 @@ if($tel=='ru')
 else{
     $message = 'Исеме: '.filter_input(INPUT_POST, 'isem')."\n"
             .'Телефоны: '.filter_input(INPUT_POST, 'tilifun')."\n"
-            .'Кызыксына: '. urlencode($url[2]);
+            .'Кызыксына: '. $url[2];
 }
 $xat = mail($to, $subject, $message);
 if($xat){
