@@ -44,7 +44,7 @@ include "menu.php";
 if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/')))
 {
 	//$rasemnar->july = 'rasem/yort';
-	include "urnak/slider.php";
+	include "urnak/toep.php";
 }
 else if(isset($url[2])){
 	include "urnak/slider.php";

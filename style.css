@@ -8,7 +8,7 @@ body{
    //background:url('/rasem/kuk.jpg');
    //background-size:100% 100%;
 }
-.uzak, #ajaq{
+.uzak{
     max-width: 1200px;
     min-width: 940px;
     clear:both;
@@ -16,7 +16,13 @@ body{
     //background:yellow;
     //position:fixed;
 }
-#ajaq{color: white}
+#ajaq{color: white;
+    background:#770077;
+    clear:both;
+    margin:0 auto;
+    height: 100px;
+    width:100%;
+}
 #bash #oeyga{
     color:orange;
     text-decoration:none;
@@ -142,12 +148,16 @@ input{
 }
 input[type="text"]{
     margin-right:50px;
+    padding-left:20px;
 }
 input[type="submit"]{
     cursor:pointer;
     color:white;
     background:linear-gradient(to bottom right, #e4ac20 0%, #e28820 100%);
-    font-weight:bold;
+    //font-weight:bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    //height:50px;
 }
 input[type="submit"]:hover{
     background:linear-gradient(to bottom right, #e28720 0%, #f16e24 100%);
@@ -159,5 +169,5 @@ a.gallery:not(:first-child){
     //display:none;
 }
 a.gallery img{
-    border-radius:20px;
+   // border-radius:20px;
 }
