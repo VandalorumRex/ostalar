@@ -38,7 +38,7 @@
 <body>
 <div id="bash">
 	<div class="uzak">
-		<h1><a id="oeyga" href="/"><img src="/rasem/shoerepborghych.png" width="60px" height="60px" align="top"/> Оста <span id="jort">лар</span></a></h1>
+		<h1><a id="oeyga" href="/"><img src="/rasem/shoerepborghych.jpg" width="60px" height="60px" align="top"/> Оста <span id="jort">лар</span></a></h1>
 		<div id="versia">
 			 <p><a href="/ru" hreflang="ru">русская версия</a></p>
 			 <p><a href="/tt" hreflang="tt">татарча версия</a></p>
@@ -48,36 +48,6 @@
    </div>
 </div>
 <?//if($body_domain=='ostalar'):?>
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
-		(function (d, w, c) {
-			(w[c] = w[c] || []).push(function() {
-				try {
-					w.yaCounter29640165 = new Ya.Metrika({
-						id:29640165,
-						clickmap:true,
-						trackLinks:true,
-						accurateTrackBounce:true,
-						webvisor:true,
-						trackHash:true
-					});
-				} catch(e) { }
-			});
-	
-			var n = d.getElementsByTagName("script")[0],
-				s = d.createElement("script"),
-				f = function () { n.parentNode.insertBefore(s, n); };
-			s.type = "text/javascript";
-			s.async = true;
-			s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-	
-			if (w.opera == "[object Opera]") {
-				d.addEventListener("DOMContentLoaded", f, false);
-			} else { f(); }
-		})(document, window, "yandex_metrika_callbacks");
-	</script>
-	<noscript><div><img src="//mc.yandex.ru/watch/29640165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
