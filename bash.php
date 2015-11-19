@@ -47,7 +47,7 @@
 		<div class="clear"></div>
    </div>
 </div>
-<?if($body_domain=='ostalar'):?>
+<?//if($body_domain=='ostalar'):?>
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
 		(function (d, w, c) {
@@ -88,4 +88,4 @@
   ga('send', 'pageview');
 
 </script>
-<?endif?>
+<?//endif?>

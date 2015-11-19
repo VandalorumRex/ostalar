@@ -7,10 +7,10 @@
         echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
 		<div class="clear"></div>
 		
-        <?php foreach($suratlar as $surat):?>
+        <?php foreach($suratlar as $key=>$surat):?>
                             
 			<a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$surat?>">
-				<img src="<?=$surat?>" height="200px"/>
+				<img src="<?=$kechkena[$key]?>" height="200px"/>
 			</a>
                             
         <?php endforeach?>		
