@@ -14,9 +14,9 @@
         <?php include("urnak/zakaz.php");
         echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
         <div align="center">
-        <?php foreach($suratlar as $surat):?>           
+        <?php foreach($suratlar as $key=>$surat):?>           
             <a class="gallery" rel="group" title="это фото 1" href="<?=$surat?>">
-				<img src="<?=$surat?>" width="200px" height="100px"/>
+				<img src="<?=$kechkena[$key]?>" width="200px" height="100px"/>
 			</a>
         <?php endforeach?>
         </div>
