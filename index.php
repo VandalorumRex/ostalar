@@ -30,14 +30,15 @@ if($url[2] || in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/t
     if($rasemnar->july) {
 		$rasemnar->jyyylmasy = opendir($rasemnar->july);
 		while (false !== ($rasem = readdir($rasemnar->jyyylmasy))){
-			if($rasem!='.'&& $rasem!='..')
-				$suratlar[] = "/".$rasemnar->july."/".$rasem;
-                $kechkena[] = "/".str_replace("/","/kechkena/",$rasemnar->july)."/".$rasem;
-		}		
-    }
-    else {
-        unset($url[2]);
-    }
+			if($rasem!='.'&& $rasem!='..'){
+                    $suratlar[] = "/".$rasemnar->july."/".$rasem;
+            $kechkena[] = "/".str_replace("/","/kechkena/",$rasemnar->july)."/".$rasem;
+            }
+        }
+    }		
+}
+else {
+    unset($url[2]);
 }
 include "bash.php";
 include "menu.php";
