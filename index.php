@@ -32,7 +32,7 @@ if($url[2] || in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/t
 		while (false !== ($rasem = readdir($rasemnar->jyyylmasy))){
 			if($rasem!='.'&& $rasem!='..')
 				$suratlar[] = "/".$rasemnar->july."/".$rasem;
-                $kechkena[] = "/".str_replace("/","/kechekana/",$rasemnar->july)."/".$rasem;
+                $kechkena[] = "/".str_replace("/","/kechkena/",$rasemnar->july)."/".$rasem;
 		}		
     }
     else {
