@@ -7,7 +7,7 @@ $url = explode('/',$_SERVER['REDIRECT_URL']);
 if($_SERVER['REDIRECT_URL']=='/') {
 	header('Location: /ru');
 }        
-$phone = array("(843) 245-48-03","(843) 245-35-51");
+$phone = array("+7(987)245-48-03","+7(987)245-35-51");
 $APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',$url[2]);
 $tel = ($url[1]=='tt')?'tt':'ru';
 if((in_array($_SERVER['REDIRECT_URL'],array('/tt','/tt/'))) && $tel=='tt') $APPLICATION->title='Йорт төзибез';
