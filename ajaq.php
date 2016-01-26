@@ -1,8 +1,10 @@
 <div id="ajaq">
     <div align="center" style="padding-top:40px;">
        <!--a style="color:white" href="http://www.dot.tk" target="_blank">Получить домен *.tk</a-->
-       (843) 245-48-03, (843) 245-35-51
-       
+       <!--(843) 245-48-03, (843) 245-35-51-->
+	    <?php foreach($phone as $tel):?>
+			<a href="tel:<?php=str_replace(array(' ','(',')','-',$tel),'',?>"><?=$tel?></a>&nbsp;&nbsp;&nbsp;
+		<?php endforeach;?>
     </div>
     <div align="center">
         <!-- Yandex.Metrika counter -->
