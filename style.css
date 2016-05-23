@@ -1,28 +1,29 @@
 body{
-    background:linear-gradient(to left,#679fd6 0%, #89bfd6 100%);//url('/rasem/kuk.jpg');
+    background:linear-gradient(to left,#679fd6 0%, #89bfd6 100%);
     background-size:100% 100%;
     font-family:Tahoma;
     height: 100%;
 }
 .clear{clear:both;}
 #bash{
-   //background:url('/rasem/kuk.jpg');
-   //background-size:100% 100%;
+   
 }
 .uzak{
     max-width: 1200px;
     min-width: 940px;
     clear:both;
     margin:0 auto;
-    //background:yellow;
-    //position:fixed;
+    
 }
 #ajaq{color: white;
-    background:#770077;
+    background:#0C0;
     clear:both;
-    margin:0 auto;
+    margin:0 auto -10px;
     height: 100px;
     width:100%;
+}
+#ajaq a{
+    color: white;
 }
 #bash #oeyga{
     color:orange;
@@ -90,12 +91,11 @@ ul, li {
 #bash_menu{
     text-transform: uppercase;
     color:white;
-   // border-top:1px solid white;
-   // border-bottom:1px solid white;
+   
    border-radius:10px;
     font-size:14px;
     background:url('/rasem/buirana.jpg');
-    //position:fixed;
+    
 }
 .logo{
     background:url('/rasem/yort/767.jpg');
@@ -107,7 +107,7 @@ ul, li {
     clear:both;
     margin-left:auto;
     margin-right:auto;
-    //background:white;//url('/rasem/buirana.jpg');
+   
     max-width: 1440px;
 	
     min-width: 940px;
@@ -118,7 +118,7 @@ ul, li {
     min-width: 940px;
     clear:both;
     margin:0 auto;
-    //background:white;//url('/rasem/buirana.jpg');
+    
     min-height:500px;
 }
 .suz{
@@ -156,10 +156,10 @@ input[type="submit"]{
     cursor:pointer;
     color:white;
     background:linear-gradient(to bottom right, #e4ac20 0%, #e28820 100%);
-    //font-weight:bold;
+    
     padding-left: 20px;
     padding-right: 20px;
-    //height:50px;
+    
 }
 input[type="submit"]:hover{
     background:linear-gradient(to bottom right, #e28720 0%, #f16e24 100%);
@@ -168,8 +168,8 @@ h1{
     color:#EEE;
 }
 a.gallery:not(:first-child){
-    //display:none;
+    
 }
 a.gallery img{
-   // border-radius:20px;
+   
 }
