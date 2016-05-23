@@ -18,12 +18,13 @@ body{
 #ajaq{color: white;
     background:#0C0;
     clear:both;
-    margin:0 auto -10px;
+    margin:0 -10px -10px;
     height: 100px;
     width:100%;
 }
 #ajaq a{
     color: white;
+    font-size: 18px;
 }
 #bash #oeyga{
     color:orange;
