@@ -16,15 +16,15 @@ body{
     
 }
 #ajaq{color: white;
-    background:#0C0;
+    background:#7C0;
     clear:both;
-    margin:0 -5px -5px;
+    margin:0 auto -5px;
     height: 100px;
-    width:110%;
+    width:100%;
 }
 #ajaq a{
     color: yellow;
-    font-size: 18px;
+    font-size: 24px;
 }
 #ajaq a:hover{
     color:orange;
