@@ -26,6 +26,9 @@ body{
     color: yellow;
     font-size: 18px;
 }
+#ajaq a:hover{
+    color:orange;
+}
 #bash #oeyga{
     color:orange;
     text-decoration:none;
