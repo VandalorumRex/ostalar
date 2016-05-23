@@ -2,8 +2,8 @@
     <div align="center" style="padding-top:40px;">
        <!--a style="color:white" href="http://www.dot.tk" target="_blank">Получить домен *.tk</a-->
        <!--(843) 245-48-03, (843) 245-35-51-->
-	    <?php foreach($phone as $tel):?>
-			<a href="tel:<?=str_replace(array(' ','(',')','-'),'',$tel);?>"><?=$tel?></a>&nbsp;&nbsp;&nbsp;
+	    <?php foreach($phone as $key=>$tel):?>
+			<a href="tel:<?=str_replace(array(' ','(',')','-'),'',$tel);?>"><?=$qysqa[$key]?></a>&nbsp;&nbsp;&nbsp;
 		<?php endforeach;?>
     </div>
     <div align="center">
