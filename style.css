@@ -21,6 +21,7 @@ body{
     margin:0 auto -5px;
     height: 100px;
     width:100%;
+    min-width: 400px;
 }
 #ajaq a{
     color: yellow;
@@ -95,7 +96,7 @@ ul, li {
 #bash_menu{
     text-transform: uppercase;
     color:white;
-   
+    min-width: 400px;
    border-radius:10px;
     font-size:14px;
     background:url('/rasem/buirana.jpg');
