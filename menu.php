@@ -28,6 +28,7 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
                     </li>
                 <?php endforeach?>			
 		</ul>
+            <div class="clear"></div>
 	</div>
 	<div class="clear"></div>
 </div>
