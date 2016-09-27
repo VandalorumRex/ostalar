@@ -8,7 +8,7 @@
 	<link rel="alternate" hreflang="ru" href="http://ostalar.ru/ru" />
 	<link rel="alternate" hreflang="tt" href="http://ostalar.ru/tt" />
 	<meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name='yandex-verification' content='43e48888c64838c9' />
 	<meta name='yandex-verification' content='68fd5fd180d98e78' />
 	<meta name='yandex-verification' content='4279c116cd7a9e02' />
