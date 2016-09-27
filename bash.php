@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?> Казань Татарстан</title>
-        <script src="/script/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
+        <script async src="/script/jquery-1.11.3.min.js"></script>
+        <script async type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
 	<link rel="stylesheet" href="/style.css"/>
 	<link rel="alternate" hreflang="ru" href="http://ostalar.ru/ru" />
 	<link rel="alternate" hreflang="tt" href="http://ostalar.ru/tt" />
@@ -27,7 +27,7 @@
         <!-- Optionally add helpers - button, thumbnail and/or media -->
         <link rel="stylesheet" href="/script/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
         <script async type="text/javascript" src="/script/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-        <script type="text/javascript" src="script/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+        <script async type="text/javascript" src="script/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
         <link rel="stylesheet" href="/script/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
         <script async type="text/javascript" src="/script/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
