@@ -114,12 +114,12 @@ ul, li {
    
     max-width: 1440px;
 	
-    min-width: 940px;
+    min-width: 400px;
     min-height: calc(100vh - 203px);
 }
 .aq{
     max-width: 1200px;
-    min-width: 940px;
+    min-width: 400px;
     clear:both;
     margin:0 auto;
     
