@@ -10,7 +10,7 @@ body{
 }
 .uzak{
     max-width: 1200px;
-    min-width: 940px;
+    min-width: 400px;
     clear:both;
     margin:0 auto;
     
@@ -131,7 +131,7 @@ ul, li {
     border-radius:30px;
     margin:0,auto;
     max-width: 1200px;
-    min-width: 940px;
+    min-width: 400px;
     min-height:60px;
     padding:20px;
     margin-bottom:20px;
