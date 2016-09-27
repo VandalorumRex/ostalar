@@ -20,7 +20,7 @@ body{
     clear:both;
     margin:0 auto -5px;
     height: 100px;
-    width:100%;
+    /*width:100%;*/
     min-width: 400px;
 }
 #ajaq a{
