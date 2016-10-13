@@ -59,6 +59,13 @@ body{
     margin-top:21px;
     padding-left:60px;
 }
+#telefon a{
+    color: white;
+    text-decoration: none;
+}
+#telefon a:hover{
+    color: gold;
+}
 #jort{
     color:#241B18;
     background:orange;

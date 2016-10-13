@@ -44,7 +44,7 @@
 			 <p><a href="/ru" hreflang="ru">русская версия</a></p>
 			 <p><a href="/tt" hreflang="tt">татарча версия</a></p>
 		</div>
-		<div id="telefon"><a href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[time() % 2])?>"><?=$qysqa[time() % 2]?></a></div>
+		<div id="telefon"><a href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>"><?=$qysqa[0]?></a></div>
 		<div class="clear"></div>
    </div>
 </div>
