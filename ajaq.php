@@ -7,6 +7,7 @@
 		<?php endforeach;?>
     </div>
     <div align="center">
+        <?php if(strpos(filter_input(INPUT_SERVER,"HTTP_HOST"),".local")===false):?>
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript">
         (function (d, w, c) {
@@ -32,6 +33,7 @@
         </script>
         <noscript><div><img src="//mc.yandex.ru/watch/29640165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
+        <?php endif;?>
     </div>
     
 <?php
