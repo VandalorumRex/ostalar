@@ -9,7 +9,7 @@ if($_SERVER['REDIRECT_URL']=='/') {
 }
 $qysqa = array("245-48-03","249-14-02"); 
 $phone = array("+7(937)615-48-03","+7(927)249-14-02");
-$APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',$url[2]);
+$APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',isset($url[2])?$url[2]:"");
 $tel = ($url[1]=='tt')?'tt':'ru';
 if((in_array($_SERVER['REDIRECT_URL'],array('/tt','/tt/'))) && $tel=='tt') $APPLICATION->title='Йорт төзибез';
 $APPLICATION->keywords = $tel=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
