@@ -17,7 +17,7 @@
 	
         <meta property="og:image" content="<?=$og_image?>"/>
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>" />
-	
+        <meta name="description" content="Строим дома, бани, павильоны. Изготавливаем мебель, двери, лестницы по заказ"/>
          <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="/script/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
