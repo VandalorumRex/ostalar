@@ -15,7 +15,7 @@
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<meta name="google-site-verification" content="9LmeuCKZ5B6mhd72djDF6sKwUJadrrOSM0Xc4JO2RHo" />
 	
-        <meta property="og:image" content="http://ostalar.tk/rasem/basqych/2-1.png"/>
+        <meta property="og:image" content="<?=$og_image?>"/>
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>" />
 	
          <!-- Add mousewheel plugin (this is optional) -->
