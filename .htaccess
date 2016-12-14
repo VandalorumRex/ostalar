@@ -1,7 +1,7 @@
 RewriteEngine on
 Options +FollowSymlinks
 RewriteBase /
-RewriteCond %{REQUEST_URI} !^/(yandex_43e48888c64838c9.html|index.php|robots.txt|style.css|maghlumat.php|(rasem|urnak|script|amazon-style-image-scroller-master)/)
+RewriteCond %{REQUEST_URI} !^/(index.php|robots.txt|style.css|1.php|maghlumat.php|(rasem|urnak|script|amazon-style-image-scroller-master)/)
 RewriteRule (.*?)   /index.php   [L,QSA]
 
 <ifModule mod_headers.c>
