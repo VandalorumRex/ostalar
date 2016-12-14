@@ -1,5 +1,6 @@
 body{
-    background:linear-gradient(to left,#679fd6 0%, #89bfd6 100%);
+    /*background:linear-gradient(to left,#679fd6 0%, #89bfd6 100%);*/
+    background:url("/rasem/tire.png");
     background-size:100% 100%;
     font-family:Tahoma;
     height: 100%;
@@ -16,7 +17,8 @@ body{
     
 }
 #ajaq{color: white;
-    background:#0E3;
+    background:url("/rasem/buirana.jpg") repeat scroll;
+    
     clear:both;
     margin:0 auto -5px;
     height: 100px;
@@ -106,6 +108,7 @@ ul, li {
     color:white;
     min-width: 400px;
    border-radius:10px;
+   font-weight: bold;
     font-size:14px;
     background:url('/rasem/buirana.jpg');
     
