@@ -14,8 +14,8 @@
 	<meta name='yandex-verification' content='4279c116cd7a9e02' />
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<meta name="google-site-verification" content="9LmeuCKZ5B6mhd72djDF6sKwUJadrrOSM0Xc4JO2RHo" />
-	
-	<meta name="keywords" content="<?=$APPLICATION->keywords?>">
+	<meta og:image="/rasem/basqych/2-1.png" />
+	<meta name="keywords" content="<?=$APPLICATION->keywords?>" />
 	
          <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="/script/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
