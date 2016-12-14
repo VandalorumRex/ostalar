@@ -26,32 +26,32 @@ if(isset($url[2]) || in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/r
     if(isset($url[2])){
 	if(in_array($url[2],array('лестницы','баскычлар')))  {
             $rasemnar->july = 'rasem/basqych';
-            $og_image = "http://ostalar.tk/rasem/kechekena/basqych/2-1.png";
+            $og_image = "http://ostalar.tk/rasem/basqych/2-1.png";
         }
 	else if(in_array($url[2],array('мебель','җиһаз'))) {   
             $rasemnar->july = 'rasem/cihaz';
-            $og_image = "http://ostalar.tk/rasem/kechekena/cihaz/4eb8aeb7ca37ec6a6500000b.png";
+            $og_image = "http://ostalar.tk/rasem/cihaz/4eb8aeb7ca37ec6a6500000b.png";
         }
 	else if(in_array($url[2],array('металлконструкции','металлконструкцияләр'))){
             $rasemnar->july = 'rasem/mk';
-            $og_image = "http://ostalar.tk/rasem/kechekena/mk/11.jpg";
+            $og_image = "http://ostalar.tk/rasem/mk/11.jpg";
         }
 	else if(in_array($url[2],array('двери','ишекләр'))){
             $rasemnar->july = 'rasem/ishek';
-            $og_image = "http://ostalar.tk/rasem/kechekena/ishek/32.png";
+            $og_image = "http://ostalar.tk/rasem/ishek/32.png";
         }
         else if(in_array($url[2],array('дома','йортлар'))){
             $rasemnar->july = 'rasem/yort';
-            $og_image = "http://ostalar.tk/rasem/kechekena/yort/0797.jpg";
+            $og_image = "http://ostalar.tk/rasem/yort/0797.jpg";
         }
 	else if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/'))){
             $rasemnar->july = 'rasem/yort';
-            $og_image = "http://ostalar.tk/rasem/kechekena/basqych/2-1.png";
+            $og_image = "http://ostalar.tk/rasem/basqych/2-1.png";
         }
     } else {
         if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/'))){
             $rasemnar->july = 'rasem/yort';
-            $og_image = "http://ostalar.tk/rasem/kechekena/basqych/2-1.png";
+            $og_image = "http://ostalar.tk/rasem/basqych/2-1.png";
         }
     }
     if($rasemnar->july) {
