@@ -1,2 +1,2 @@
 User-agent: *
-#Host: https://ostalar.ru
+Host: http://ostalar.tk
