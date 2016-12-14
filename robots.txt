@@ -1,2 +1,4 @@
 User-agent: *
 Host: http://ostalar.tk
+
+Sitemap: http://ostalar.tk/sitemap.xml
