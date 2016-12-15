@@ -138,6 +138,7 @@ ul, li {
     min-height:500px;
 }
 .suz{
+    
     background:white;
     clear:both;
     border-radius:30px;
@@ -155,7 +156,8 @@ a.gallery img{
 form{
     clear:both;
     text-align: center;
-    margin-bottom:20px;
+    margin:0 auto;
+    /*position: fixed;*/
 }
 input{
     height:30px;
@@ -164,10 +166,10 @@ input{
     font-size:16px;
     
 }
-input[type="text"]{
+/*input[type="text"]{
     margin-right:50px;
     padding-left:20px;
-}
+}*/
 input[type="submit"]{
     cursor:pointer;
     color:white;
