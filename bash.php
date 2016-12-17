@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?=$_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title?> Казань Татарстан</title>
+	<title><?=$APPLICATION->title?></title>
         <script src="/script/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
 	<link rel="stylesheet" href="/style.css"/>
-	<link rel="alternate" hreflang="ru" href="http://ostalar.ru/ru" />
-	<link rel="alternate" hreflang="tt" href="http://ostalar.ru/tt" />
+	<link rel="alternate" hreflang="ru" href="http://ostalar.tk/ru" />
+	<link rel="alternate" hreflang="tt" href="http://ostalar.tk/tt" />
 	<meta charset="utf-8"/>
-        <meta name="viewport" content="width=400">
+        <meta name="viewport" content="width=device-width">
 	<meta name='yandex-verification' content='43e48888c64838c9' />
 	<meta name='yandex-verification' content='68fd5fd180d98e78' />
 	<meta name='yandex-verification' content='4279c116cd7a9e02' />
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<meta name="google-site-verification" content="9LmeuCKZ5B6mhd72djDF6sKwUJadrrOSM0Xc4JO2RHo" />
 	
+        <meta property="og:title" content="<?=$APPLICATION->title?>"/>
         <meta property="og:image" content="<?=$og_image?>"/>
+        <meta property="og:description" content="<?=$APPLICATION->description?>"/>
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>" />
-        <meta name="description" content="Строим дома, бани, павильоны. Изготавливаем мебель, двери, лестницы под заказ"/>
+        <meta name="description" content="<?=$APPLICATION->description?>"/>
          <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="/script/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 

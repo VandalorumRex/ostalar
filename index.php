@@ -5,7 +5,7 @@ $rasemnar = (object)array('july','jyyylmasy');
 $url = explode('/',$_SERVER['REDIRECT_URL']);
 //print_r($url);
 if(!isset($url[1])) {
-    header('Location: /ru');
+    //header('Location: /ru');
 } elseif(in_array($url[1],["лестницы","дома","двери","металлконструкции","мебель"])) {
     header('Location: /ru/'.$url[1]);
 } elseif(in_array($url[1],["баскычлар","йортлар","ишекләр","металлконструкцияләр","җиһаз"])) {
@@ -17,12 +17,14 @@ if(!isset($url[1])) {
 } elseif($url[1]=="tt" && isset($url[2]) && !in_array($url[2],["баскычлар","йортлар","ишекләр","металлконструкцияләр","җиһаз"])){
     header('Location: /tt');
 }
+//$title = $_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title Казань Татарстан;
 $qysqa = array("245-48-03","249-14-02"); 
 $phone = array("+7(937)615-48-03","+7(927)249-14-02");
 $APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',isset($url[2])?$url[2]:"");
 $tel = ($url[1]=='tt')?'tt':'ru';
 if((in_array($_SERVER['REDIRECT_URL'],array('/tt','/tt/'))) && $tel=='tt') $APPLICATION->title='Йорт төзибез';
 $APPLICATION->keywords = $tel=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
+$APPLICATION->description = "Строим дома, бани, павильоны. Изготавливаем мебель, двери, лестницы под заказ";
 if(filter_input(INPUT_POST,'zakaz_jasaw')){
     include "xat.php";
 }
