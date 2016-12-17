@@ -4,18 +4,19 @@ $APPLICATION = (object)array('title','tele','keywords');
 $rasemnar = (object)array('july','jyyylmasy');
 $url = explode('/',$_SERVER['REDIRECT_URL']);
 //print_r($url);
-if(!isset($url[1])) {
+if(isset($url[1])) {
     //header('Location: /ru');
-} elseif(in_array($url[1],["лестницы","дома","двери","металлконструкции","мебель"])) {
-    header('Location: /ru/'.$url[1]);
-} elseif(in_array($url[1],["баскычлар","йортлар","ишекләр","металлконструкцияләр","җиһаз"])) {
-    header('Location: /tt/'.$url[1]);
-} elseif(isset($url[1]) && $url[1]!="ru" && $url[1]!="tt"){
-    header('Location: /ru');
-} elseif($url[1]=="ru" && isset($url[2]) && !in_array($url[2],["лестницы","дома","двери","металлконструкции","мебель"])){
-    header('Location: /ru');
-} elseif($url[1]=="tt" && isset($url[2]) && !in_array($url[2],["баскычлар","йортлар","ишекләр","металлконструкцияләр","җиһаз"])){
-    header('Location: /tt');
+    if(in_array($url[1],["лестницы","дома","двери","металлконструкции","мебель"])) {
+        header('Location: /ru/'.$url[1]);
+    } elseif(in_array($url[1],["баскычлар","йортлар","ишекләр","металлконструкцияләр","җиһаз"])) {
+        header('Location: /tt/'.$url[1]);
+    } elseif($url[1]!="ru" && $url[1]!="tt"){
+        header('Location: /ru');
+    } elseif($url[1]=="ru" && isset($url[2]) && !in_array($url[2],["лестницы","дома","двери","металлконструкции","мебель"])){
+        header('Location: /ru');
+    } elseif($url[1]=="tt" && isset($url[2]) && !in_array($url[2],["баскычлар","йортлар","ишекләр","металлконструкцияләр","җиһаз"])){
+        header('Location: /tt');
+    }
 }
 //$title = $_SERVER['REDIRECT_URL']=='/'?'Оста':$APPLICATION->title Казань Татарстан;
 $qysqa = array("245-48-03","249-14-02"); 
