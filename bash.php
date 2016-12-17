@@ -8,10 +8,10 @@
 	<link rel="alternate" hreflang="ru" href="http://ostalar.tk/ru" />
 	<link rel="alternate" hreflang="tt" href="http://ostalar.tk/tt" />
 	<meta charset="utf-8"/>
-        <meta name="viewport" content="width=980px, initial-scale=0.5"">
-	<meta name='yandex-verification' content='43e48888c64838c9' />
-	<meta name='yandex-verification' content='68fd5fd180d98e78' />
-	<meta name='yandex-verification' content='4279c116cd7a9e02' />
+        <meta name="viewport" content="width=980px, initial-scale=0.5">
+	<meta name="yandex-verification" content="43e48888c64838c9" />
+	<meta name="yandex-verification" content="68fd5fd180d98e78" />
+	<meta name="yandex-verification" content="4279c116cd7a9e02" />
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<meta name="google-site-verification" content="9LmeuCKZ5B6mhd72djDF6sKwUJadrrOSM0Xc4JO2RHo" />
 	
