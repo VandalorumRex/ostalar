@@ -3,7 +3,7 @@
 $APPLICATION = (object)array('title','tele','keywords');
 $rasemnar = (object)array('july','jyyylmasy');
 $url = explode('/',$_SERVER['REDIRECT_URL']);
-print_r($url);
+//print_r($url);
 if(isset($url[1]) && $url[1]>"") {
     //header('Location: /ru');
     if(in_array($url[1],["лестницы","дома","двери","металлконструкции","мебель"])) {
