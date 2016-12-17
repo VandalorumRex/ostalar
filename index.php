@@ -25,7 +25,23 @@ $APPLICATION->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')
 $tel = ($url[1]=='tt')?'tt':'ru';
 if((in_array($_SERVER['REDIRECT_URL'],array('/tt','/tt/'))) && $tel=='tt') $APPLICATION->title='Йорт төзибез';
 $APPLICATION->keywords = $tel=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
-$APPLICATION->description = "Строим дома, бани, павильоны. Изготавливаем мебель, двери, лестницы под заказ";
+if(in_array($_SERVER['REDIRECT_URL'], ["/","/ru","/ru/"])){
+    $APPLICATION->description = "Строим дома, бани, павильоны. Изготавливаем мебель, двери, лестницы под заказ";
+} else if(in_array($_SERVER['REDIRECT_URL'], ["/tt","/tt/"])){
+    $APPLICATION->description = "Йортлар, мунчалар, павильоннар салабыз. Ишекләр, җиһаз, баскычлар ясыйбыз";
+} else if($tel=="ru"){
+    if($url[2]=="дома"){
+        $APPLICATION->description = "Строим ".$url[2];
+    } else {
+        $APPLICATION->description = "Изготавливаем ".$url[2];
+    }
+} else {
+    if($url[2]=="йортлар"){
+        $APPLICATION->description = $url[2]." салабыз";
+    } else {
+        $APPLICATION->description = $url[2]." ясыйбыз";
+    }
+}
 if(filter_input(INPUT_POST,'zakaz_jasaw')){
     include "xat.php";
 }
