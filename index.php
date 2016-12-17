@@ -10,7 +10,7 @@ if(!isset($url[1])) {
     header('Location: /ru/'.$url[1]);
 } elseif(in_array($url[1],["баскычлар","йортлар","ишекләр","металлконструкцияләр","җиһаз"])) {
     header('Location: /tt/'.$url[1]);
-} elseif($url[1]!="ru" && $url[1]!="tt"){
+} elseif(isset($url[1]) && $url[1]!="ru" && $url[1]!="tt"){
     header('Location: /ru');
 } elseif($url[1]=="ru" && isset($url[2]) && !in_array($url[2],["лестницы","дома","двери","металлконструкции","мебель"])){
     header('Location: /ru');
