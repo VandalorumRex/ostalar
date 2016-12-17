@@ -49,8 +49,8 @@ body{
 }
 #title{text-transform: uppercase;}
 #versia{float:right;margin-left: 10px;}
-#versia a{font-size:14px;color:white;}
-#versia a:hover{font-size:14px;color:yellow;}
+#versia a{/*font-size:14px;*/color:white;}
+#versia a:hover{/*font-size:14px;*/color:yellow;}
 #telefon{
     background: url('/rasem/trubka.png') no-repeat;
     background-size: 55px 55px;
@@ -163,7 +163,7 @@ input{
     height:30px;
     border:0;
     border-radius:10px;
-    font-size:16px;
+    /*font-size:16px;*/
     
 }
 /*input[type="text"]{
