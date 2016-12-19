@@ -37,7 +37,7 @@
 	
         <link href="/amazon-style-image-scroller-master/css/amazon_scroller.css" rel="stylesheet" type="text/css"></link>
         <script type="text/javascript" src="/amazon-style-image-scroller-master/js/amazon_scroller.js"></script>
-        <!--script>
+        <script>
             (function() {
               var cx = '009647158219691168182:3eede9l0wju';
               var gcse = document.createElement('script');
@@ -47,7 +47,7 @@
               var s = document.getElementsByTagName('script')[0];
               s.parentNode.insertBefore(gcse, s);
             })();
-          </script-->
+          </script>
           
 </head>
 <body>
