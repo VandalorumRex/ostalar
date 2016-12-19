@@ -31,4 +31,5 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
             <div class="clear"></div>
 	</div>
 	<div class="clear"></div>
+        <gcse:search></gcse:search>
 </div>

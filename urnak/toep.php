@@ -11,6 +11,7 @@
         Без булдыралмаслык эш җук.
         <?php endif?>
         </div>
+        
         <?php include("urnak/zakaz.php");
         echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
         <div align="center">

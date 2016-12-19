@@ -37,13 +37,25 @@
 	
         <link href="/amazon-style-image-scroller-master/css/amazon_scroller.css" rel="stylesheet" type="text/css"></link>
         <script type="text/javascript" src="/amazon-style-image-scroller-master/js/amazon_scroller.js"></script>
-        
+        <script>
+            (function() {
+              var cx = '009647158219691168182:3eede9l0wju';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          
 </head>
 <body>
 <div id="bash">
 	<div class="uzak">
 		<h1><a id="oeyga" href="/"><img src="/rasem/shoerepborghych.jpg" width="60px" height="60px" align="top"/> Оста <span id="jort">лар</span></a></h1>
-		<div id="versia">
+                
+                <div id="versia">
 			 <p><a href="/ru" hreflang="ru">русская версия</a></p>
 			 <p><a href="/tt" hreflang="tt">татарча версия</a></p>
 		</div>
