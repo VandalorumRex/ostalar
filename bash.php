@@ -14,7 +14,7 @@
 	<meta name="yandex-verification" content="4279c116cd7a9e02" />
 	<meta name="google-site-verification" content="CXdp81AdQir1Yf9Sq2AOvUuzgiWQHpTm2TdfcD1LxMk" />
 	<meta name="google-site-verification" content="9LmeuCKZ5B6mhd72djDF6sKwUJadrrOSM0Xc4JO2RHo" />
-	
+	<meta property="og:url" content="<?=$_SERVER["REQUEST_SCHEME"]."://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']?>" />
         <meta property="og:title" content="<?=$APPLICATION->title?>"/>
         <meta property="og:image" content="<?=$og_image?>"/>
         <meta property="og:description" content="<?=$APPLICATION->description?>"/>
