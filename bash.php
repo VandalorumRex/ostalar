@@ -17,7 +17,7 @@
 	<meta property="og:url" content="<?=$_SERVER["REQUEST_SCHEME"]."://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']?>" />
         <meta property="og:title" content="<?=$APPLICATION->title?>"/>
         <meta property="og:image" content="<?=$og_image?>"/>
-        <meta property="og:description" content="<?=$APPLICATION->description?>"/>
+        <meta property="og:description" content="<?=$APPLICATION->description." ".$qysqa[0]?>"/>
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>" />
         <meta name="description" content="<?=$APPLICATION->description." ".$qysqa[0]?>"/>
          <!-- Add mousewheel plugin (this is optional) -->
