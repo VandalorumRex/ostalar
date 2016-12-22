@@ -2,8 +2,12 @@ body{
     background:white;
 }
 .clear{clear:both;}
-#bash{
-   
+#bash{   
+   background-color: #242424;
+    width: 1400px;
+    height: 141px;
+    clear:both;
+    margin:0 auto;
 }
 .tən{
     width: 1400px;
@@ -95,6 +99,9 @@ ul, li {
     padding:0;
     list-style-type:none;  
 }
+#menu{
+    
+}
 #menu_uze{float:right;padding-top:16px;display:block;}
 #menu_uze li{display:inline-block;margin-left:20px;height:28px;}
 #menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
@@ -123,9 +130,12 @@ ul, li {
     min-width: 400px;
    border-radius:10px;
    font-weight: bold;
-    /*font-size:14px;*/
-    background:url('/rasem/buirana.jpg');
-    
+   background-color: #fdd835;
+    width: 1400px;
+    height: 78px;
+    clear:both;
+    margin-left:auto;
+    margin-right:auto;
 }
 .logo{
     background:url('/rasem/yort/767.jpg');
