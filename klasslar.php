@@ -12,3 +12,4 @@
  * @author mansur
  */
 include("klass/Application.php");
+include("klass/Taswirlar.php");
