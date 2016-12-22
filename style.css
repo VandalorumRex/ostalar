@@ -210,6 +210,7 @@ a.gallery:not(:first-child){
 a.gallery img{
    
 }
-.süzlær{
+.suzler{
     color:transparent; height:1px;
+    text-decoration: none;
 }
