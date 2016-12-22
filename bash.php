@@ -19,7 +19,7 @@
         <meta property="og:image" content="<?=$og_image?>"/>
         <meta property="og:description" content="<?=$APPLICATION->description?>"/>
 	<meta name="keywords" content="<?=$APPLICATION->keywords?>" />
-        <meta name="description" content="<?=$APPLICATION->description?>"/>
+        <meta name="description" content="<?=$APPLICATION->description." ".$qysqa?>"/>
          <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="/script/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 

@@ -42,6 +42,7 @@ if(in_array($_SERVER['REDIRECT_URL'], ["/","/ru","/ru/"])){
         $APPLICATION->description = $url[2]." ясыйбыз";
     }
 }
+
 if(filter_input(INPUT_POST,'zakaz_jasaw')){
     include "xat.php";
 }
