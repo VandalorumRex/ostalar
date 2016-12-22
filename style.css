@@ -129,14 +129,14 @@ ul, li {
     min-width: 400px;
     min-height: calc(100vh - 203px);
 }
-.aq{
+/*.aq{
     max-width: 1200px;
     min-width: 400px;
     clear:both;
     margin:0 auto;
     
     min-height:500px;
-}
+}*/
 .suz{
     
     background:white;
@@ -190,4 +190,7 @@ a.gallery:not(:first-child){
 }
 a.gallery img{
    
+}
+.süzlær{
+    color:transparent; height:10px;
 }
