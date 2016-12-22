@@ -1,9 +1,5 @@
 body{
-    background:linear-gradient(to left,black 0%, grey 100%);
-    /*background:url("/rasem/tire.png");*/
-    background-size:100% 100%;
-    font-family:Tahoma;
-    height: 100%;
+    background:white;
 }
 .clear{clear:both;}
 #bash{
@@ -13,12 +9,14 @@ body{
     width: 1400px;
     clear:both;
     margin:0 auto;
+    
+    top: 219px;
 }
 .yzba{
     width: 1400px;
     height: 436px;
-    clear:both;
-    margin:0 auto;
+    /*clear:both;
+    margin:0 auto;*/
     background: url("/rasem/yzba.png") no-repeat;
     
 }
@@ -154,16 +152,38 @@ ul, li {
     min-height:500px;
 }*/
 .suz{
+    width: 726px;
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    top:79px;
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
     
-    background:white;
-    clear:both;
-    border-radius:30px;
-    margin:20px auto;
-    max-width: 1200px;
-    min-width: 400px;
-    min-height:60px;
-    padding:20px;
-    
+}
+.töymə-1{
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    width: 266px;
+    height: 71px;
+    top:121px;
+    color: #ffffff;
+    line-height: 70px;
+    border-radius: 35px;
+    text-align: center;
+    font-family: OpenSans;
+
+    font-size: 18px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+
 }
 #surat{clear:both; margin-left:auto;margin-right:auto;width:960px;}
 a.gallery img{
@@ -214,9 +234,7 @@ input[type="submit"]:hover{
    text-align: center; 
 }
 
-h1{
-    color:#EEE;
-}
+
 a.gallery:not(:first-child){
     
 }
@@ -229,4 +247,17 @@ a.gallery img{
     width:10px;
     position:fixed; margin-left:-9999px;
     text-decoration: none;
+}
+
+.title{
+    margin:0;
+    width:100%;
+    text-align: center;
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 73px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    top: 71px;
 }
