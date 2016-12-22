@@ -9,6 +9,19 @@ body{
 #bash{
    
 }
+.tən{
+    width: 1400px;
+    clear:both;
+    margin:0 auto;
+}
+.yzba{
+    width: 1400px;
+    height: 436px;
+    clear:both;
+    margin:0 auto;
+    background: url("/rasem/yzba.png") no-repeat;
+    
+}
 .uzak{
     max-width: 1200px;
     min-width: 400px;

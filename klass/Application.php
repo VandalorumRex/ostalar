@@ -16,7 +16,9 @@ class Application {
     public $title;
     public $tele;
     public $keywords;
-    
+    public $süz;
+
+
     public function __construct($url) {
         $this->tele = ($url[1]=='tt')?'tt':'ru';
         $this->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',isset($url[2])?$url[2]:"");
@@ -40,6 +42,14 @@ class Application {
             } else {
                 $this->description = $url[2]." ясыйбыз";
             }
+        }
+        if($this->tele=='ru'){
+            $this->süz = 'Мы комманда профессионалов. Делаем всё с гарантией от домов до стульев.
+            Нет дела, которое мы не сможем.';
         }       
+        else{
+            $this->süz = "Без осталар. Йортлар салабыз, җиһаз, баскычлар, ишекләр ясыйбыз. Барлык эшләребезгә гарантия бирәбез.
+            Без булдыралмаслык эш юк.";
+        }
     }
 }

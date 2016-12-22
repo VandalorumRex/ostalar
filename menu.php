@@ -33,4 +33,4 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 	<div class="clear"></div>
         
 </div>
-<div style="clear:both;margin:0 auto;min-width:400px;max-width:960px;"><gcse:search></gcse:search></div>
+<!--div style="clear:both;margin:0 auto;min-width:400px;max-width:960px;"><gcse:search></gcse:search></div-->

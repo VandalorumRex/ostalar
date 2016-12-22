@@ -1,16 +1,9 @@
-<div class="divar">
-    <!--div class="aq"-->
-        <script> var i=0;</script>
+<div class="tən">
+    <div class="yzba">
         <h1 id="title"><?=$APPLICATION->title?></h1>
         <div class="suz">
-        <?php if($APPLICATION->tele=='ru'):?>
-        Мы комманда профессионалов. Делаем всё с гарантией от домов до стульев.
-        Нет дела, которое мы не сможем.
-        <?else:?>
-        Без осталар. Йортлар төзибез, җиһаз, баскычлар, ишекләр ясыйбыз. Барлык эшләребезгә гарантия бирәбез.
-        Без булдыралмаслык эш җук.
-        <?php endif?>
+        <?php echo $APPLICATION->süz;?>
         </div>
-    
+    </div>
         
 </div>
