@@ -8,7 +8,7 @@
          endif?>
         <?php 
         
-        echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
+        echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$rəsemnər->zurlary).'"]</script>');?>
 	<div class="clear"></div>
         <div align="center">
             <?php if($isemnar):
@@ -17,18 +17,18 @@
                     <div class="suz"><?php echo $taswirlar[$url[2]][$isem]?></div>
                     <div align="center">
                     <?php for($i=0;$i<$max;$i++):?>
-                        <a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$suratlar[$i+$j]?>">
-                            <img src="<?=$kechkena[$i+$j]?>" height="300px"/>
+                        <a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$rəsemnər->zurlary[$i+$j]?>">
+                            <img src="<?=$rəsemnər->kechkenələre[$i+$j]?>" height="300px"/>
                         </a>
                     <?php endfor;
                     $j=$j+$max;?>
                     </div>
             <?php endforeach;
                 else:
-                foreach($suratlar as $key=>$surat):?>
+                foreach($rəsemnər->zurlary as $key=>$surat):?>
 
                             <a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$surat?>">
-                                    <img src="<?=$kechkena[$key]?>" height="200px"/>
+                                    <img src="<?=$rəsemnər->kechkenələre[$key]?>" height="200px"/>
                             </a>
 
             <?php endforeach;
