@@ -12,7 +12,7 @@
         <?php endif?>
         </div>
         
-        <?php include("urnak/zakaz.php");
+        <?php 
         echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
         <div align="center">
         <?php if($tel=='ru'):?>           
@@ -46,7 +46,8 @@
             </a>
             <a class="gallery" rel="group" title="ишекләр" href="/tt/ишекләр">
                 <img src="/rasem/ishek/32.png" height="400px" alt="ишекләр" />
-        <?php endif?>
+        <?php endif;
+        include("urnak/zakaz.php");?>
         </div>
         
     <!--/div-->

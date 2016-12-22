@@ -1,12 +1,12 @@
 <div class="divar">
     <!--div class="aq"-->
         <script> var i=0;</script>
-        <h1 id="title"><?=$APPLICATION->title?></h1>
+        <h1 align="center" id="title"><?=$APPLICATION->title?></h1>
         <?php $isemnar = null;
         if(isset($taswirlar[$url[2]])):
             $isemnar = array_keys($taswirlar[$url[2]]); 
          endif?>
-        <?php include("urnak/zakaz.php");
+        <?php 
         
         echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
 		<div class="clear"></div>
@@ -31,6 +31,7 @@
 			</a>
                             
         <?php endforeach;
-        endif;?>		
+        endif;
+        include("urnak/zakaz.php");?>		
     <!--/div-->
 </div>
