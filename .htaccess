@@ -1,7 +1,7 @@
 RewriteEngine on
 Options +FollowSymlinks
 RewriteBase /
-RewriteCond %{REQUEST_URI} !^/(index.php|robots.txt|style.css|sitemap.xml|maghlumat.php|(rasem|urnak|script|amazon-style-image-scroller-master)/)
+RewriteCond %{REQUEST_URI} !^/(index.php|robots.txt|style.css|sitemap.xml|maghlumat.php|(bizæk|rasem|urnak|script|amazon-style-image-scroller-master)/)
 RewriteRule (.*?)   /index.php   [L,QSA]
 
 <ifModule mod_headers.c>

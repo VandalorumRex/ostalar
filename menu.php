@@ -4,16 +4,16 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 ?>
 <div id="bash_menu">
 	<div class="uzak">
-            <?php $title=$tel=='ru'?'Современные деревянные конструкции в строительстве':'Төзелештәге хәзерге агач конструкцияләр'?>
+            <?php $title=$APPLICATION->tele=='ru'?'Современные деревянные конструкции в строительстве':'Төзелештәге хәзерге агач конструкцияләр'?>
             <div id="title"><?=$title?></div>
                 <ul id="menu_uze">
                 <?php foreach($menu as $item):
                     $it = (array)$item;
-                    $name = $tel=='ru'?$it['@attributes']['name']:$it['@attributes']['tt'];
+                    $name = $APPLICATION->tele=='ru'?$it['@attributes']['name']:$it['@attributes']['tt'];
                     $href=(isset($it['@attributes']['href'])
-                            ?"/".$tel.$it['@attributes']['href']
-                            :'/'.$tel."/".$name);?>               
-                    <li><a href="<?=$href?>" hreflang="<?=$tel?>"><?=$name?></a>
+                            ?"/".$APPLICATION->tele.$it['@attributes']['href']
+                            :'/'.$APPLICATION->tele."/".$name);?>               
+                    <li><a href="<?=$href?>" hreflang="<?=$APPLICATION->tele?>"><?=$name?></a>
                     <?php /*if(isset($it['subitem'])):?>
                         <ul>
                         <?if(is_array($it['subitem'])):?>
