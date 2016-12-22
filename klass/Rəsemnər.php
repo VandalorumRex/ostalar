@@ -7,10 +7,10 @@
  */
 
 /**
- * Description of klasslar
+ * Description of Rəsemnər
  *
  * @author mansur
  */
-include("klass/Application.php");
-include("klass/Taswirlar.php");
-include("klass/Rəsemnər.php");
+class Rəsemnər {
+    //put your code here
+}

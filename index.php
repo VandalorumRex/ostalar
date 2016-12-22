@@ -81,16 +81,16 @@ include "menu.php";
 if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/')))
 {
 	//$rasemnar->july = 'rasem/yort';
-	include "urnak/toep.php";
+	include "ürnək/toep.php";
 }
 else if(isset($url[2])){
-	include "urnak/slider.php";
+	include "ürnək/slider.php";
 }
 //else 
-//	include "urnak/taswir.php";
+//	include "ürnək/taswir.php";
 include "ajaq.php";
 if($xat=='kitte'){
-    include "urnak/qotlaw.php";
+    include "ürnək/qotlaw.php";
 }
 ?>
 <script  type="text/javascript">
