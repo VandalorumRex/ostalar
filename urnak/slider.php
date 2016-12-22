@@ -9,29 +9,30 @@
         <?php 
         
         echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$suratlar).'"]</script>');?>
-		<div class="clear"></div>
-	<?php if($isemnar):
-            $j = 0; $max = 3;
-            foreach ($isemnar as $key=>$isem):?>
-                <div class="suz"><?php echo $taswirlar[$url[2]][$isem]?></div>
-                <div align="center">
-                <?php for($i=0;$i<$max;$i++):?>
-                    <a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$suratlar[$i+$j]?>">
-			<img src="<?=$kechkena[$i+$j]?>" height="300px"/>
-                    </a>
-                <?php endfor;
-                $j=$j+$max;?>
-                </div>
-        <?php endforeach;
-            else:
-            foreach($suratlar as $key=>$surat):?>
-                            
-			<a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$surat?>">
-				<img src="<?=$kechkena[$key]?>" height="200px"/>
-			</a>
-                            
-        <?php endforeach;
-        endif;
-        include("urnak/zakaz.php");?>		
-    <!--/div-->
+	<div class="clear"></div>
+        <div align="center">
+            <?php if($isemnar):
+                $j = 0; $max = 3;
+                foreach ($isemnar as $key=>$isem):?>
+                    <div class="suz"><?php echo $taswirlar[$url[2]][$isem]?></div>
+                    <div align="center">
+                    <?php for($i=0;$i<$max;$i++):?>
+                        <a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$suratlar[$i+$j]?>">
+                            <img src="<?=$kechkena[$i+$j]?>" height="300px"/>
+                        </a>
+                    <?php endfor;
+                    $j=$j+$max;?>
+                    </div>
+            <?php endforeach;
+                else:
+                foreach($suratlar as $key=>$surat):?>
+
+                            <a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$surat?>">
+                                    <img src="<?=$kechkena[$key]?>" height="200px"/>
+                            </a>
+
+            <?php endforeach;
+            endif;
+            include("urnak/zakaz.php");?>		
+        </div>
 </div>
