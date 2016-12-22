@@ -17,35 +17,35 @@
         <div align="center">
         <?php if($tel=='ru'):?>           
             <a class="gallery" rel="group" title="дома" href="/ru/дома">
-                <img src="/rasem/yort/0797.jpg" height="400px" alt="дома"/>
+                <img src="/rasem/yort/0797.jpg" width="400px" alt="дома"/>
             </a>
             <a class="gallery" rel="group" title="лестницы" href="/ru/лестницы">
-                <img src="/rasem/basqych/2-1.png" height="400px" alt="лестницы"/>
+                <img src="/rasem/basqych/2-1.png" width="400px" alt="лестницы"/>
             </a>
             <a class="gallery" rel="group" title="мебель" href="/ru/мебель">
-                <img src="/rasem/cihaz/4eb8aeb7ca37ec6a6500000b.png" height="400px" alt="мебель" />
+                <img src="/rasem/cihaz/4eb8aeb7ca37ec6a6500000b.png" width="400px" alt="мебель" />
             </a>
             <a class="gallery" rel="group" title="металлконструкции" href="/ru/металлконструкции">
-                <img src="/rasem/mk/11.jpg" height="400px" alt="металлконструкции" />
+                <img src="/rasem/mk/11.jpg" width="400px" alt="металлконструкции" />
             </a>
             <a class="gallery" rel="group" title="двери" href="/ru/двери">
-                <img src="/rasem/ishek/32.png" height="400px" alt="двери" />
+                <img src="/rasem/ishek/32.png" width="400px" alt="двери" />
             </a>
         <?php else:?>
             <a class="gallery" rel="group" title="йортлар" href="/tt/йортлар">
-                <img src="/rasem/yort/0797.jpg" height="400px" alt="йортлар"/>
+                <img src="/rasem/yort/0797.jpg" width="400px" alt="йортлар"/>
             </a>
             <a class="gallery" rel="group" title="баскычлар" href="/tt/баскычлар">
-                <img src="/rasem/basqych/2-1.png" height="400px" alt="баскычлар"/>
+                <img src="/rasem/basqych/2-1.png" width="400px" alt="баскычлар"/>
             </a>
             <a class="gallery" rel="group" title="җиһаз" href="/tt/җиһаз">
-                <img src="/rasem/cihaz/4eb8aeb7ca37ec6a6500000b.png" height="400px" alt="җиһаз" />
+                <img src="/rasem/cihaz/4eb8aeb7ca37ec6a6500000b.png" width="400px" alt="җиһаз" />
             </a>
             <a class="gallery" rel="group" title="металлконструкцияләр" href="/tt/металлконструкцияләр">
-                <img src="/rasem/mk/11.jpg" height="400px" alt="металлконструкцияләр" />
+                <img src="/rasem/mk/11.jpg" width="400px" alt="металлконструкцияләр" />
             </a>
             <a class="gallery" rel="group" title="ишекләр" href="/tt/ишекләр">
-                <img src="/rasem/ishek/32.png" height="400px" alt="ишекләр" />
+                <img src="/rasem/ishek/32.png" width="400px" alt="ишекләр" />
         <?php endif;
         include("urnak/zakaz.php");?>
         </div>
