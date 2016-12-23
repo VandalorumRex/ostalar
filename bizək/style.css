@@ -132,7 +132,7 @@ body{
     display:block;
     height: 78px;
     line-height: 78px;
-    margin-left: 103px;
+    margin-left: 88px;
 }
 #menu_uze li{display:inline-block;margin-left:20px;height:78px;
    
@@ -150,7 +150,7 @@ body{
     font-weight: 700;
     font-family: OpenSansBold;
 }
-#menu_uze li a:hover{
+/*#menu_uze li a:hover{
     color:white; text-decoration:underline;
      transform: matrix(1, 0, -0.5, 1, 0, 0);
     -moz-transform: matrix(1, 0, -0.5, 1, 0, 0);
@@ -160,7 +160,27 @@ body{
 }
 #menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
     margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
-#menu_uze li:hover ul{display:block;}
+#menu_uze li:hover ul{display:block;}*/
+.ezläw{
+    border-style: solid;
+    border-width: 1px;
+    border-color:   #e1e1e1;
+    color:black;
+    background-color:  #ffffff;
+    width: 214px;
+    height: 41px;
+    position: relative;
+    top: -7px;
+    
+}
+#ezlägech{
+    background: url("/rasem/ezlägech.png");
+    width: 22px;
+    height: 22px;
+    margin-top: 28px;
+    display: inline-block;
+    cursor:pointer;
+}
 .tən{
     width: 1400px;
     clear:both;
@@ -296,18 +316,18 @@ form{
     margin:0 auto;
     /*position: fixed;*/
 }
-input{
+/*input{
     height:30px;
     border:0;
     border-radius:10px;
-    /*font-size:16px;*/
+    font-size:16px;
     
-}
+}*/
 /*input[type="text"]{
     margin-right:50px;
     padding-left:20px;
 }*/
-input[type="submit"]{
+/*input[type="submit"]{
     cursor:pointer;
     color:white;
     background:linear-gradient(to bottom right, #e4ac20 0%, #e28820 100%);
@@ -318,7 +338,7 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background:linear-gradient(to bottom right, #e28720 0%, #f16e24 100%);
-}
+}*/
 ::-webkit-input-placeholder {
    text-align: center;
 }

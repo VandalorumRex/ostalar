@@ -29,7 +29,9 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 		</ul>
     </div>
     <div class="col-md-4">
-        <div><gcse:search></gcse:search></div>
+        <!--div><gcse:search></gcse:search></div-->
+        <input type="search" class="ezläw" />
+        <span id="ezlägech"></span>
     </div>
 	<!--div class="uzak">
             
