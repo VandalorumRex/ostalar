@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1); 
 ini_set('error_reporting', E_ALL);
-$url = explode('/',$_SERVER['REQUEST_URI']);
+$url = explode('/', urldecode($_SERVER['REQUEST_URI'])); //print_r($url); exit;
 if(isset($url[1]) && $url[1]>"") {
     //header('Location: /ru');
     if(in_array($url[1],["лестницы","дома","двери","металлконструкции","мебель"])) {

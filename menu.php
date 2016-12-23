@@ -3,7 +3,7 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 //print '<pre>';print_r($menu);print '</pre>';
 ?>
 <div id="bash_menu">
-    <div class="col-md-8">
+    <div class="col-md-9">
         <ul id="menu_uze">
                 <?php foreach($menu as $item):
                     $it = (array)$item;
@@ -28,7 +28,7 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
                 <?php endforeach?>			
 		</ul>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
         <!--div><gcse:search></gcse:search></div-->
         <input type="search" class="ezläw" />
         <span id="ezlägech"></span>

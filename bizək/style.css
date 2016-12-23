@@ -304,6 +304,7 @@ ul, li {
     margin-top: 40px;
 }
 .input-button{
+    text-transform: uppercase;
     margin-top: 40px;
     border-radius: 35px;
     background-color:
