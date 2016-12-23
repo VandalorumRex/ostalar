@@ -1,5 +1,36 @@
+@font-face{font-family:"OpenSansRegular";src:url("/shrift/OpenSans/OpenSansRegular/OpenSansRegular.eot");src:url("/shrift/OpenSans/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansRegular/OpenSansRegular.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansLight";src:url("/shrift/OpenSans/OpenSansLight/OpenSansLight.eot");src:url("/shrift/OpenSans/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansLight/OpenSansLight.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansLight/OpenSansLight.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansItalic";src:url("/shrift/OpenSans/OpenSansItalic/OpenSansItalic.eot");src:url("/shrift/OpenSans/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansItalic/OpenSansItalic.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansBold";src:url("/shrift/OpenSans/OpenSansBold/OpenSansBold.eot");src:url("/shrift/OpenSans/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansBold/OpenSansBold.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansBold/OpenSansBold.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansExtraBold";src:url("/shrift/OpenSans/OpenSansExtraBold/OpenSansExtraBold.eot");src:url("/shrift/OpenSans/OpenSansExtraBold/OpenSansExtraBold.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansExtraBold/OpenSansExtraBold.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansExtraBold/OpenSansExtraBold.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansExtraBoldItalic";src:url("/shrift/OpenSans/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot");src:url("/shrift/OpenSans/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansExtraBoldItalic/OpenSansExtraBoldItalic.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansBoldItalic";src:url("/shrift/OpenSans/OpenSansBoldItalic/OpenSansBoldItalic.eot");src:url("/shrift/OpenSans/OpenSansBoldItalic/OpenSansBoldItalic.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansBoldItalic/OpenSansBoldItalic.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansBoldItalic/OpenSansBoldItalic.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansRegularItalic";src:url("/shrift/OpenSans/OpenSansRegularItalic/OpenSansRegularItalic.eot");src:url("/shrift/OpenSans/OpenSansRegularItalic/OpenSansRegularItalic.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansRegularItalic/OpenSansRegularItalic.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansRegularItalic/OpenSansRegularItalic.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansSemiBold";src:url("/shrift/OpenSans/OpenSansSemiBold/OpenSansSemiBold.eot");src:url("/shrift/OpenSans/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");font-style:normal;font-weight:normal;}
+@font-face{font-family:"OpenSansSemiBoldItalic";src:url("/shrift/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot");src:url("/shrift/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+url("/shrift/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.woff") format("woff"),
+url("/shrift/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format("truetype");font-style:normal;font-weight:normal;}
 body{
     background:white;
+    font-family: OpenSansRegular;
 }
 .clear{clear:both;}
 #bash{   
@@ -167,7 +198,7 @@ ul, li {
     margin: 0 auto;
     position: relative;
     top:79px;
-    font-family: OpenSans;
+    font-family: OpenSansRegular;
     color: #ffffff;
     font-size: 20px; /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
@@ -189,7 +220,7 @@ ul, li {
     line-height: 70px;
     border-radius: 35px;
     text-align: center;
-    font-family: OpenSans;
+    font-family: OpenSansRegular;
 
     font-size: 18px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
@@ -263,7 +294,7 @@ a.gallery img{
     margin:0;
     width:100%;
     text-align: center;
-    font-family: OpenSans;
+    font-family: OpenSansRegular;
     color: #ffffff;
     font-size: 73px; /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
