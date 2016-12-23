@@ -94,6 +94,13 @@ body{
     position: relative;
     top: 65px;
     left: -80px;
+    
+    height:16px;
+    line-height: 16px;
+}
+#versia span,
+#versia a{
+    display: inline-block;
     color: #adadad;
     font-size: 15px;/* Approximation due to font substitution */
     font-weight: 400;
@@ -101,16 +108,12 @@ body{
     height:16px;
     line-height: 16px;
 }
-#versia span,
-#versia a{
-    display: inline-block;
-}
 .globus{
     margin-left: 0px;
     left:0;
     width: 16px;
     height: 16px;
-    background: white;
+    background: url("/rasem/globus.png") no-repeat;
 }
 
 .tən{
@@ -126,7 +129,7 @@ body{
     /*clear:both;
     margin:0 auto;*/
     background: url("/rasem/yzba.png") no-repeat;
-    
+    background-size: 100% 100%;
 }
 .uzak{
     max-width: 1200px;
