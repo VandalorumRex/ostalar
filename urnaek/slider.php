@@ -1,4 +1,4 @@
-<div class="divar">
+<div class="tən">
     <!--div class="aq"-->
         <script> var i=0;</script>
         <h1 align="center" id="title"><?=$APPLICATION->title?></h1>

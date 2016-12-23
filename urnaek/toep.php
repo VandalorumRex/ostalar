@@ -27,5 +27,8 @@
             <img class="line__image" src="/rasem/basqych/88.png" width="335px" height="335px"/>
             <img class="line__image" src="/rasem/basqych/79.png" width="335px" height="335px"/>
         </div>
-    </div> 
+    </div>
+    <div class="divar">
+        <?php include ("urnaek/zakaz.php");?>
+    </div>
 </div>
