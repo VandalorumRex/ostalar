@@ -40,6 +40,79 @@ body{
     clear:both;
     margin:0 auto;
 }
+#oeyga{
+    position: relative;   
+    width: 76px;
+    height: 76px;
+    left:103px;
+    top:26px;
+}
+#oeyga img{
+    border-radius:38px;
+    width:76px;
+    height: 76px;
+}
+.ostalar{
+    position: relative;
+    heiht:30px;
+    line-height: 30px;
+    top: 36px;
+    left:0px;
+    font-family: OpenSansBold;
+    color: #ffffff;
+    font-size: 41.65px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;
+}
+.modern{
+    color: #ffffff;
+    position: relative;
+    left:0px;
+    top:44px;
+    font-size: 15px;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: left;
+}
+#telefon{
+    position: relative;
+    background: url('/rasem/trubka.png') no-repeat;
+    background-size: 32px 32px;
+    color: #fefefe;
+    font-size:47px;
+    display: block;
+    top:36px;
+    left:-14px;
+    padding-left:58px;
+    height:32px;
+    line-height:32px;
+    font-size: 42px;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: left;
+}
+
+#versia{
+    position: relative;
+    top: 65px;
+    left: -80px;
+    color: #adadad;
+    font-size: 15px;/* Approximation due to font substitution */
+    font-weight: 400;
+    text-align: left;
+    height:16px;
+    line-height: 16px;
+}
+#versia span,
+#versia a{
+    display: inline-block;
+}
+.globus{
+    margin-left: 0px;
+    left:0;
+    width: 16px;
+    height: 16px;
+    background: white;
+}
+
 .tən{
     width: 1400px;
     clear:both;
@@ -79,16 +152,7 @@ body{
 #ajaq a:hover{
     color:orange;
 }
-#bash #oeyga{
-    color:orange;
-    text-decoration:none;
-    letter-spacing:1px;
-    text-transform: uppercase;
-    font-size:47px;
-}
-#oeyga img{
-    border-radius:30px;
-}
+
 #bash h1{
     float:left;
     color:#241B18;
@@ -100,23 +164,7 @@ h1#title{
 #versia{float:right;margin-left: 10px;}
 #versia a{/*font-size:14px;*/color:white;}
 #versia a:hover{/*font-size:14px;*/color:yellow;}
-#telefon{
-    background: url('/rasem/trubka.png') no-repeat;
-    background-size: 55px 55px;
-    color:orange;
-    letter-spacing:1px;
-    font-size:47px;
-    float:right;
-    margin-top:21px;
-    padding-left:60px;
-}
-#telefon a{
-    color: white;
-    text-decoration: none;
-}
-#telefon a:hover{
-    color: gold;
-}
+
 #jort{
     color:#241B18;
     background:orange;

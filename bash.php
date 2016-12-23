@@ -2,6 +2,16 @@
 <html>
 <head>
 	<title><?=$APPLICATION->title?></title>
+        <!--link href="/amazon-style-image-scroller-master/css/amazon_scroller.css" rel="stylesheet" type="text/css"></link-->
+        <script type="text/javascript" src="/amazon-style-image-scroller-master/js/amazon_scroller.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="/script/jquery-1.11.3.min.js"></script>
         <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
 	<link rel="stylesheet" href="/bizək/style.css"/>
@@ -35,8 +45,7 @@
         <link rel="stylesheet" href="/script/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
         <script type="text/javascript" src="/script/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	
-        <link href="/amazon-style-image-scroller-master/css/amazon_scroller.css" rel="stylesheet" type="text/css"></link>
-        <script type="text/javascript" src="/amazon-style-image-scroller-master/js/amazon_scroller.js"></script>
+        
         <script>
             (function() {
               var cx = '009647158219691168182:3eede9l0wju';
@@ -51,18 +60,33 @@
           
 </head>
 <body>
-<div id="bash">
-	<div class="uzak">
-		<h1><a id="oeyga" href="/"><img src="/rasem/shoerepborghych.jpg" width="60px" height="60px" align="top"/> Оста <span id="jort">лар</span></a></h1>
-                <?php $title=$APPLICATION->tele=='ru'?'Современные деревянные конструкции в строительстве':'Төзелештәге хәзерге агач конструкцияләр'?>
-            <div id="title"><?=$title?></div>
-                <div id="versia">
+<div id="bash" class="rows">
+    <div class="col-md-2">
+        <a id="oeyga" href="/"><img src="/rasem/shoerepborghych.jpg" /> </a>
+    </div>
+    <div class="col-md-7">
+        <div class="ostalar">ОСТАЛАР</div>
+        <?php $title=$APPLICATION->tele=='ru'?'Современные деревянные конструкции в строительстве':'Төзелештәге хәзерге агач конструкцияләр'?>
+        <div class="modern"><?=$title?></div>
+    </div>
+    <div class="col-md-3">
+        <a id="telefon" href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>"><?=$qysqa[0]?></a>
+        <div class="rows" id="versia">
+            <span class="globus"></span>
+            <a class="ru" href="/ru" hreflang="ru">Русский</a>
+            <span class="tayaq">|</span>
+            <a class="tt" href="/tt" hreflang="tt">Татарча</a>
+        </div>
+    </div>
+                
+            <!--div id="title"><?=$title?></div>
+                <div >
 			 <p><a href="/ru" hreflang="ru">русская версия</a></p>
 			 <p><a href="/tt" hreflang="tt">татарча версия</a></p>
 		</div>
-		<div id="telefon"><a href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>"><?=$qysqa[0]?></a></div>
-		<div class="clear"></div>
-   </div>
+		
+		<div class="clear"></div-->
+   
 </div>
 <?php if(strpos(filter_input(INPUT_SERVER,"HTTP_HOST"),".local")===false):?>
 <script>
