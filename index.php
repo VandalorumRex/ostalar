@@ -1,4 +1,6 @@
 <?php
+ini_set('display_errors', 1); 
+ini_set('error_reporting', E_ALL);
 $url = explode('/',$_SERVER['REDIRECT_URL']);
 if(isset($url[1]) && $url[1]>"") {
     //header('Location: /ru');
