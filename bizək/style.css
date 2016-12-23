@@ -41,16 +41,19 @@ body{
     margin:0 auto;
 }
 #oeyga{
-    position: relative;   
+    position: relative; 
+    display: inline-block;
     width: 76px;
     height: 76px;
     left:103px;
     top:26px;
+    border-radius:38px;
 }
 #oeyga img{
-    border-radius:38px;
-    width:76px;
-    height: 76px;
+    
+    width:51px;
+    height: 44px;
+    background: white;
 }
 .ostalar{
     position: relative;

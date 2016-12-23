@@ -62,7 +62,7 @@
 <body>
 <div id="bash" class="rows">
     <div class="col-md-2">
-        <a id="oeyga" href="/"><img src="/rasem/shoerepborghych.jpg" /> </a>
+        <a id="oeyga" href="/"><img src="/rasem/shoerepborghych.png" /> </a>
     </div>
     <div class="col-md-7">
         <div class="ostalar">ОСТАЛАР</div>
