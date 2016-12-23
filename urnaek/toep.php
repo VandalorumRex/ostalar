@@ -5,8 +5,17 @@
             <?php echo $APPLICATION->süz;?>
         </div>
         <div class="töymə-1">
-            ОТПРАВИТЬ ЗАЯВКУ
+            <?=$APPLICATION->zayavkaJibərü()?>
         </div>
     </div>
-        
+    <div class="rows line">
+        <div class="line__title"><?=Törlər::$ISEMƏR[$APPLICATION->tele][Törlər::YORTLAR]?> 
+            <a href="<?=Törlər::$JULLAR[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
+        </div>
+    </div>
+    <div class="rows line">
+        <div class="line__title"><?=Törlər::$ISEMƏR[$APPLICATION->tele][Törlər::BASQYCHLAR]?> 
+            <a href="<?=Törlər::$JULLAR[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
+        </div>
+    </div> 
 </div>

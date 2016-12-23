@@ -199,6 +199,19 @@ body{
     background: url("/rasem/yzba.png") no-repeat;
     background-size: 100% 100%;
 }
+.line{
+    width: 1197px;
+    height: 404px;
+    margin: 80px auto 0 auto;
+}
+.line__title{
+    color:#242424;
+    font-size: 40px;/* Approximation due to font substitution */
+    font-weight: 300;
+    text-align: left;
+    height:36px;
+    line-height: 36px;
+}
 .uzak{
     max-width: 1200px;
     min-width: 400px;
@@ -304,7 +317,7 @@ ul, li {
     border-radius: 35px;
     text-align: center;
     font-family: OpenSansRegular;
-
+    text-transform: uppercase;
     font-size: 18px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
 

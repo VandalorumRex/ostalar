@@ -52,4 +52,18 @@ class Application {
             Без булдыралмаслык эш юк.";
         }
     }
+    
+    public function barysynQaraw(){
+        switch ($this->tele){
+            case 'tt': return 'барысын карайым'; //break;
+            case 'ru': return 'смотреть всё'; //break;
+        }
+    }
+    
+    public function zayavkaJibərü(){
+        if($this->tele=='tt'){
+            return 'Заявка җибәрергә';
+        }
+        return 'Отправить заявку';
+    }
 }

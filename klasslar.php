@@ -14,3 +14,4 @@
 include("klass/Application.php");
 include("klass/Taswirlar.php");
 include("klass/Rasemner.php");
+include("klass/Toerler.php");
