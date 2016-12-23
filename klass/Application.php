@@ -21,14 +21,14 @@ class Application {
 
     public function __construct($url) {
         $this->tele = ($url[1]=='tt')?'tt':'ru';
-        $this->title = (in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',isset($url[2])?$url[2]:"");
-        if((in_array($_SERVER['REDIRECT_URL'],array('/tt','/tt/'))) && $this->tele=='tt'){
+        $this->title = (in_array($_SERVER['REQUEST_URI'],array('/','/ru','/ru/')))?'Строим дом':str_replace('/',' ',isset($url[2])?$url[2]:"");
+        if((in_array($_SERVER['REQUEST_URI'],array('/tt','/tt/'))) && $this->tele=='tt'){
             $this->title='Йорт салабыз';
         }
         $this->keywords = $this->tele=='tt'?'баскычлар, ишекләр, җиһаз':'лестницы, двери, мебель';
-        if(in_array($_SERVER['REDIRECT_URL'], ["/","/ru","/ru/"])){
+        if(in_array($_SERVER['REQUEST_URI'], ["/","/ru","/ru/"])){
             $this->description = "Строим дома, бани, павильоны. Изготавливаем мебель, двери, лестницы под заказ";
-        } else if(in_array($_SERVER['REDIRECT_URL'], ["/tt","/tt/"])){
+        } else if(in_array($_SERVER['REQUEST_URI'], ["/tt","/tt/"])){
             $this->description = "Йортлар, мунчалар, павильоннар салабыз. Ишекләр, җиһаз, баскычлар ясыйбыз";
         } else if($this->tele=="ru"){
             if($url[2]=="дома"){

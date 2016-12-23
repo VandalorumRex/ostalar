@@ -20,7 +20,7 @@ class Rəsemnər {
     public $kechkenələre = [];
 
     public function __construct($url) {
-        if(isset($url[2]) || in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/')))
+        if(isset($url[2]) || in_array($_SERVER['REQUEST_URI'],array('/','/ru','/tt','/ru/','/tt/')))
         {
             if(isset($url[2])){
                 if(in_array($url[2],array('лестницы','баскычлар')))  {
@@ -43,12 +43,12 @@ class Rəsemnər {
                     $this->july = 'rasem/yort';
                     $this->rəseme = "http://ostalar.tk/rasem/yort/0797.jpg";
                 }
-                else if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/'))){
+                else if(in_array($_SERVER['REQUEST_URI'],array('/','/ru','/tt','/ru/','/tt/'))){
                     $this->july = 'rasem/yort';
                     $this->rəseme = "http://ostalar.tk/rasem/basqych/2-1.png";
                 }
             } else {
-                if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/'))){
+                if(in_array($_SERVER['REQUEST_URI'],array('/','/ru','/tt','/ru/','/tt/'))){
                     $this->july = 'rasem/yort';
                     $this->rəseme = "http://ostalar.tk/rasem/basqych/2-1.png";
                 }

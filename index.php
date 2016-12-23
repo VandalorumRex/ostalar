@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1); 
 ini_set('error_reporting', E_ALL);
-$url = explode('/',$_SERVER['REDIRECT_URL']);
+$url = explode('/',$_SERVER['REQUEST_URI']);
 if(isset($url[1]) && $url[1]>"") {
     //header('Location: /ru');
     if(in_array($url[1],["лестницы","дома","двери","металлконструкции","мебель"])) {
@@ -35,7 +35,7 @@ if($xat>''){
 include "bash.php";
 include "menu.php";
 
-if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/')))
+if(in_array($_SERVER['REQUEST_URI'],array('/','/ru','/tt','/ru/','/tt/')))
 {
 	//$rasemnar->july = 'rasem/yort';
 	include "urnaek/toep.php";
