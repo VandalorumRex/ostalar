@@ -286,6 +286,35 @@ ul, li {
     background: url("/rasem/divar.png");
     background-size: 100% 100%;
 }
+.input-text{
+    border-radius: 35px;
+    background-color: #ffffff;
+    width: 815px;
+    height: 71px;
+    font-family: OpenSansBold;
+    color:#b6b6b6;
+    font-size: 21px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: center;
+}
+.input-text#isem{
+    margin-top: 100px;
+}
+.input-text#tilifun{
+    margin-top: 40px;
+}
+.input-button{
+    margin-top: 40px;
+    border-radius: 35px;
+    background-color:
+    #fdd835;
+    width: 815px;
+    height: 71px;
+    font-family: OpenSansBold;
+    color: #000000;
+    font-size: 21px;/* Approximation due to font substitution */
+    font-weight: 700;
+}
 /*.aq{
     max-width: 1200px;
     min-width: 400px;
