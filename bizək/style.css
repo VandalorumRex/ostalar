@@ -212,6 +212,15 @@ body{
     height:36px;
     line-height: 36px;
 }
+.line__image{
+    width: 335px;
+    height: 335px;
+    display: inline-block;
+    margin-top: 34px;
+}
+.line__image:not(:first-child){
+    margin-left:92px;
+}
 .uzak{
     max-width: 1200px;
     min-width: 400px;
