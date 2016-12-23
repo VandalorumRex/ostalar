@@ -77,16 +77,7 @@
             <span class="tayaq">|</span>
             <a class="tt" href="/tt" hreflang="tt">Татарча</a>
         </div>
-    </div>
-                
-            <!--div id="title"><?=$title?></div>
-                <div >
-			 <p><a href="/ru" hreflang="ru">русская версия</a></p>
-			 <p><a href="/tt" hreflang="tt">татарча версия</a></p>
-		</div>
-		
-		<div class="clear"></div-->
-   
+    </div>  
 </div>
 <?php if(strpos(filter_input(INPUT_SERVER,"HTTP_HOST"),".local")===false):?>
 <script>

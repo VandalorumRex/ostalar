@@ -115,7 +115,52 @@ body{
     height: 16px;
     background: url("/rasem/globus.png") no-repeat;
 }
-
+#bash_menu{
+    text-transform: uppercase;
+    color:white;
+    min-width: 400px;
+   
+   font-weight: bold;
+   background-color: #fdd835;
+    width: 1400px;
+    height: 78px;
+    clear:both;
+    margin-left:auto;
+    margin-right:auto;
+}
+#menu_uze{
+    display:block;
+    height: 78px;
+    line-height: 78px;
+    margin-left: 103px;
+}
+#menu_uze li{display:inline-block;margin-left:20px;height:78px;
+   
+}
+#menu_uze li.saylangan{
+    border-bottom: 4px solid #777777;
+}
+#menu_uze li.saylangan a{
+    color: #777777;
+}
+#menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
+#menu_uze li a{
+    color: #242424;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 700;
+    font-family: OpenSansBold;
+}
+#menu_uze li a:hover{
+    color:white; text-decoration:underline;
+     transform: matrix(1, 0, -0.5, 1, 0, 0);
+    -moz-transform: matrix(1, 0, -0.5, 1, 0, 0);
+    -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0);
+    -o-transform: matrix(1, 0, -0.5, 1, 0, 0);
+    -ms-transform: matrix(1, 0, -0.5, 1, 0, 0); 
+}
+#menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
+    margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
+#menu_uze li:hover ul{display:block;}
 .tən{
     width: 1400px;
     clear:both;
@@ -181,44 +226,8 @@ ul, li {
     padding:0;
     list-style-type:none;  
 }
-#menu{
-    
-}
-#menu_uze{float:right;padding-top:16px;display:block;}
-#menu_uze li{display:inline-block;margin-left:20px;height:28px;}
-#menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
-#menu_uze li a{
-    text-decoration:none;color:yellow;
-    transition-duration: 2s;
-    -webkit-transition-duration: 2s;
-    -o-transition-duration: 2s;
-    -moz-transition-duration: 2s;
-    transition-duration: 2s;
-}
-#menu_uze li a:hover{
-    color:white; text-decoration:underline;
-     transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -moz-transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -o-transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -ms-transform: matrix(1, 0, -0.5, 1, 0, 0); 
-}
-#menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
-    margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
-#menu_uze li:hover ul{display:block;}
-#bash_menu{
-    text-transform: uppercase;
-    color:white;
-    min-width: 400px;
-   border-radius:10px;
-   font-weight: bold;
-   background-color: #fdd835;
-    width: 1400px;
-    height: 78px;
-    clear:both;
-    margin-left:auto;
-    margin-right:auto;
-}
+
+
 .logo{
     background:url('/rasem/yort/767.jpg');
     background-size:100% 100%;

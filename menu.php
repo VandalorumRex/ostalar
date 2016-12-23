@@ -3,16 +3,16 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 //print '<pre>';print_r($menu);print '</pre>';
 ?>
 <div id="bash_menu">
-	<div class="uzak">
-            
-                <ul id="menu_uze">
+    <div class="col-md-8">
+        <ul id="menu_uze">
                 <?php foreach($menu as $item):
                     $it = (array)$item;
                     $name = $APPLICATION->tele=='ru'?$it['@attributes']['name']:$it['@attributes']['tt'];
                     $href=(isset($it['@attributes']['href'])
                             ?"/".$APPLICATION->tele.$it['@attributes']['href']
-                            :'/'.$APPLICATION->tele."/".$name);?>               
-                    <li><a href="<?=$href?>" hreflang="<?=$APPLICATION->tele?>"><?=$name?></a>
+                            :'/'.$APPLICATION->tele."/".$name);
+                    $class=(isset($url[2]))?(($url[2]==$name)?' class="saylangan"':''):(($name=='главная' || $name=='баш бит')?' class="saylangan"':'');?>               
+                    <li<?=$class?>><a href="<?=$href?>" hreflang="<?=$APPLICATION->tele?>"><?=$name?></a>
                     <?php /*if(isset($it['subitem'])):?>
                         <ul>
                         <?if(is_array($it['subitem'])):?>
@@ -27,9 +27,15 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
                     </li>
                 <?php endforeach?>			
 		</ul>
+    </div>
+    <div class="col-md-4">
+        <div><gcse:search></gcse:search></div>
+    </div>
+	<!--div class="uzak">
+            
+                
             <div class="clear"></div>
 	</div>
-	<div class="clear"></div>
+	<div class="clear"></div-->
         
 </div>
-<!--div style="clear:both;margin:0 auto;min-width:400px;max-width:960px;"><gcse:search></gcse:search></div-->
