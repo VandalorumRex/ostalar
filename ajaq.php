@@ -1,8 +1,13 @@
 <div id="ajaq">
-    <!--div class="suzler">
-        <strong>Строим</strong> павильоны  строим дома: изготовляем двери; делаем двери. Делаем стулья -  изготовляем лестницы. Изготовляем столы? Строим бани. Делаем лестницы, изготовляем мебель: изготовляем стулья -  делаем мебель?
-    </div-->
-    <div align="center" style="padding-top:40px;">
+    <div class="col-md-6">
+        <h6><?=Törlər::$ÜZLƏRE[$APPLICATION->tele]?></h6>
+        <?php for($i=1;$i<=Törlər::SANY;$i++):?>
+        <div class="row tör">
+            <?= Törlər::$ISEMNƏRE[$APPLICATION->tele][$i];?>
+        </div>
+        <?php endfor;?>
+    </div>
+    <div class="col-md-6">
        <!--a style="color:white" href="http://www.dot.tk" target="_blank">Получить домен *.tk</a-->
        <!--(843) 245-48-03, (843) 245-35-51-->
 	    <?php foreach($phone as $key=>$tel):?>

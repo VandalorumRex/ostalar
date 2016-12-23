@@ -229,14 +229,10 @@ body{
     
 }
 #ajaq{color: white;
-    background:url("/rasem/buirana.jpg") repeat scroll;
-    
     clear:both;
-    margin:0 auto -5px;
-    height: 100px;
-    /*width:100%;*/
-    min-width: 400px;
-    max-height: 3600px;
+    margin:0 auto;
+    width: 970px;
+    height: 290px;
 }
 #ajaq a{
     color: yellow;
@@ -245,7 +241,13 @@ body{
 #ajaq a:hover{
     color:orange;
 }
-
+.tör{
+    color: #7b7b7b;
+    font-size: 22px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 43px;/* Approximation due to font substitution */
+    text-align: left;
+}
 #bash h1{
     float:left;
     color:#241B18;

@@ -13,12 +13,18 @@
  */
 class Törlər {
     //put your code here
+    const SANY      = 5;
+    
     const YORTLAR   = 1;
     const BASQYCHLAR= 2;
     const CIHAZ     = 3;
     const MK        = 4;
     const ISHEKLƏR  = 5;
-    static $ISEMƏR = [
+    static $ÜZLƏRE = [
+        'ru'    =>  "КАТЕГОРИИ",
+        'tt'    =>  "КАТЕГОРИЯЛӘР"
+    ];
+    static $ISEMNƏRE = [
         'ru' => [
             self::YORTLAR   => 'ДОМА',
             self::BASQYCHLAR=> 'ЛЕСТНИЦЫ',
@@ -30,11 +36,11 @@ class Törlər {
             self::YORTLAR   => 'ЙОРТЛАР',
             self::BASQYCHLAR=> 'БАСКЫЧЛАР',
             self::CIHAZ     => 'ҖИҺАЗ',
-            self::MK        => 'МЕТАЛЛКОНСТУКЦИЯЛӘР',
+            self::MK        => 'МЕТАЛЛКОНСТРУКЦИЯЛӘР',
             self::ISHEKLƏR  => 'ИШЕКЛӘР'
         ]
     ];
-    static $JULLAR = [
+    static $JULLARY = [
         'ru' => [
             self::YORTLAR   => '/ru/дома',
             self::BASQYCHLAR=> '/ru/лестницы',

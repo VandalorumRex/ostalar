@@ -9,8 +9,8 @@
         </div>
     </div>
     <div class="rows line">
-        <div class="line__title"><?=Törlər::$ISEMƏR[$APPLICATION->tele][Törlər::YORTLAR]?> 
-            <a href="<?=Törlər::$JULLAR[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
+        <div class="line__title"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?> 
+            <a href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
             <img class="line__image" src="/rasem/yort/0769.jpg" width="335px" height="335px"/>
@@ -19,8 +19,8 @@
         </div>
     </div>
     <div class="rows line">
-        <div class="line__title"><?=Törlər::$ISEMƏR[$APPLICATION->tele][Törlər::BASQYCHLAR]?> 
-            <a href="<?=Törlər::$JULLAR[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
+        <div class="line__title"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?> 
+            <a href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
             <img class="line__image" src="/rasem/basqych/20140927_164447.png" width="335px" height="335px"/>
