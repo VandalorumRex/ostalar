@@ -33,6 +33,6 @@
 
             <?php endforeach;
             endif;
-            include("ürnək/zakaz.php");?>		
+            include("urnaek/zakaz.php");?>		
         </div>
 </div>

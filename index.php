@@ -36,16 +36,16 @@ include "menu.php";
 if(in_array($_SERVER['REDIRECT_URL'],array('/','/ru','/tt','/ru/','/tt/')))
 {
 	//$rasemnar->july = 'rasem/yort';
-	include "ürnək/toep.php";
+	include "urnaek/toep.php";
 }
 else if(isset($url[2])){
-	include "ürnək/slider.php";
+	include "urnaek/slider.php";
 }
 //else 
 //	include "ürnək/taswir.php";
 include "ajaq.php";
 if($xat=='kitte'){
-    include "ürnək/qotlaw.php";
+    include "urnaek/qotlaw.php";
 }
 ?>
 <script  type="text/javascript">

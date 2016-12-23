@@ -13,4 +13,4 @@
  */
 include("klass/Application.php");
 include("klass/Taswirlar.php");
-include("klass/Rəsemnər.php");
+include("klass/Rasemner.php");
