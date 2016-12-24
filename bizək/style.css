@@ -41,12 +41,12 @@ body{
     margin:0 auto;
 }
 #oeyga{
-    position: relative; 
+    /*position: relative; */
     display: block;
     width: 76px;
     height: 76px;
-    left:103px;
-    top:26px;
+    margin-left:103px;
+    margin-top:26px;
     background: white;
     border-radius:38px;
     
@@ -124,7 +124,7 @@ body{
 .muyyn{
     text-transform: uppercase;
     color:white;
-    min-width: 400px;
+    /*min-width: 400px;*/
    
    font-weight: bold;
    background-color: #fdd835;
