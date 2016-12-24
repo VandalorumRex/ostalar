@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 <head>
 	<title><?=$APPLICATION->title?></title>
         <script src="/script/jquery-1.11.3.min.js"></script>
