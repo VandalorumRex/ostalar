@@ -167,6 +167,11 @@ body{
 #menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
     margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
 #menu_uze li:hover ul{display:block;}*/
+.find_line{
+    height: 78px;
+    line-height: 78px;
+}
+
 .ezläw{
     border-style: solid;
     border-width: 1px;
@@ -175,16 +180,15 @@ body{
     background-color:  #ffffff;
     width: 214px;
     height: 41px;
-    position: relative;
-    top: -7px;
-    
+
 }
 #ezlägech{
-    background: url("/rasem/ezlägech.png");
+    background: url("/rasem/ezlägech.png") no-repeat;
     width: 22px;
     height: 22px;
-    margin-top: 28px;
-    display: inline-block;
+    
+    margin-left: 5px;
+    
     cursor:pointer;
 }
 .tən{

@@ -28,16 +28,21 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
                 <?php endforeach?>			
 		</ul>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 find_line">
         <!--div><gcse:search></gcse:search></div-->
-        <input type="search" class="ezläw" />
-        <span id="ezlägech"></span>
+        <table>
+            <tr>
+                <td style="vertical-align:middle"><input type="search" class="ezläw" list="törlər" /></td>
+        
+                <td style="vertical-align:middle"><div id="ezlägech"></div></td>
+            </tr>
+        </table>
+        <datalist id="törlər">
+            <?php foreach (Törlər::$ISEMNƏRE[$APPLICATION->tele] as $isem):?>
+            <option value="<?=$isem?>"></option>
+            <?php endforeach;?>
+        </datalist>
     </div>
-	<!--div class="uzak">
-            
-                
-            <div class="clear"></div>
-	</div>
-	<div class="clear"></div-->
+	
         
 </div>
