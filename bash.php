@@ -67,7 +67,7 @@
         <a id="oeyga" href="/"><img itemprop="image" src="/rasem/shoerepborghych.png" /></a>
     </div>
     <div class="col-md-7">
-        <div class="ostalar"><span id="_name1" itemprop="name">ОСТАЛАР</span> <span itemprop="address"><?=$APPLICATION->address();?></span></div>
+        <div class="ostalar">ОСТАЛАР</div>
         <?php $title=$APPLICATION->tele=='ru'?'Современные деревянные конструкции в строительстве':'Төзелештәге хәзерге агач конструкцияләр'?>
         <div class="modern"><?=$title?></div>
     </div>
