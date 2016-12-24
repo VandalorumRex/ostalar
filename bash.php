@@ -63,7 +63,7 @@
 <body>
 <div class="bash" class="rows" itemscope itemtype="http://schema.org/LocalBusiness" >
     <div class="col-md-2">
-        <a id="oeyga" href="/"><span id="_image3" itemprop="image"><img src="/rasem/shoerepborghych.png" /></span></a>
+        <a id="oeyga" href="/"><img itemprop="image" src="/rasem/shoerepborghych.png" /></a>
     </div>
     <div class="col-md-7">
         <div class="ostalar" id="_name1" itemprop="name">ОСТАЛАР</div>
