@@ -59,10 +59,10 @@ body{
     background: white;
 }
 .ostalar{
-    position: relative;
+    
     heiht:30px;
     line-height: 30px;
-    top: 36px;
+    margin-top: 36px;
     left:0px;
     font-family: OpenSansBold;
     color: #ffffff;
@@ -72,9 +72,9 @@ body{
 }
 .modern{
     color: #ffffff;
-    position: relative;
+    
     left:0px;
-    top:44px;
+    margin-top:8px;
     font-size: 15px;/* Approximation due to font substitution */
     font-weight: 400;
     text-align: left;
