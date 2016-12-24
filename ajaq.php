@@ -1,18 +1,22 @@
-<div id="ajaq">
+<div class="ayaq">
     <div class="col-md-6">
-        <h6><?=Törlər::$ÜZLƏRE[$APPLICATION->tele]?></h6>
+        <div class="ayaq__title row"><?=Törlər::$ÜZLƏRE[$APPLICATION->tele]?></div>
         <?php for($i=1;$i<=Törlər::SANY;$i++):?>
-        <div class="row tör">
+        <a class="row tör" href="<?= Törlər::$JULLARY[$APPLICATION->tele][$i]?>">
             <?= Törlər::$ISEMNƏRE[$APPLICATION->tele][$i];?>
-        </div>
+        </a>
         <?php endfor;?>
     </div>
     <div class="col-md-6">
-       <!--a style="color:white" href="http://www.dot.tk" target="_blank">Получить домен *.tk</a-->
-       <!--(843) 245-48-03, (843) 245-35-51-->
-	    <?php foreach($phone as $key=>$tel):?>
+        <div class="ayaq__title row"><?= Kontaktlar::$ÜZLƏRE[$APPLICATION->tele]?></div>
+        <?php for($i=1;$i<= Kontaktlar::SANY;$i++):?>
+        <a class="row kontakt" href="tel:<?=Kontaktlar::$OZYNNARY[$i];?>">
+            <?= Kontaktlar::$QYSQALARY[$i];?>
+        </a>
+        <?php endfor;?>
+	    <?php /*foreach($phone as $key=>$tel):?>
 			<a href="tel:<?=str_replace(array(' ','(',')','-'),'',$tel);?>"><?=$qysqa[$key]?></a>&nbsp;&nbsp;&nbsp;
-		<?php endforeach;?>
+		<?php endforeach;*/?>
         
     </div>
     <div align="center">

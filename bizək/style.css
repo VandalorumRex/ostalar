@@ -231,24 +231,35 @@ body{
     margin:0 auto;
     
 }
-#ajaq{color: white;
+.ayaq{color: white;
     clear:both;
     margin:0 auto;
     width: 970px;
     height: 290px;
+    margin-top: 80px;
 }
-#ajaq a{
-    color: yellow;
-    font-size: 24px;
-}
-#ajaq a:hover{
-    color:orange;
+.ayaq__title{
+    color: #242424;;
+    font-family: OpenSansBold;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 43px;
+    text-align: left;
 }
 .tör{
+    display: block;
     color: #7b7b7b;
     font-size: 22px;/* Approximation due to font substitution */
     font-weight: 400;
     line-height: 43px;/* Approximation due to font substitution */
+    text-align: left;
+}
+.kontakt{
+    display: block;
+    color: #7b7b7b;
+    font-size: 44px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 75px;/* Approximation due to font substitution */
     text-align: left;
 }
 #bash h1{

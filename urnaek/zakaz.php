@@ -1,3 +1,4 @@
+<a class="divar" name="zakaz">
 <?php
     $isem = array("ru" => "ВАШЕ ИМЯ", "tt" => "ИСЕМЕГЕЗ");
     $tilifun = array("ru" => "ВАШ ТЕЛЕФОН", "tt" => "ТЕЛЕФОНЫГЫЗ");
@@ -8,3 +9,4 @@
     <p><input class="input-text" name="tilifun" id="tilifun" placeholder="<?=$tilifun[$APPLICATION->tele]?>" type="tel" required="" /></p>
     <p><input class="input-button" name="zakaz_jasaw" value="<?=$APPLICATION->zayavkaJibərü()?>" type="submit" /></p>
 </form>
+</a>

@@ -32,7 +32,10 @@
                             </a>
 
             <?php endforeach;
-            endif;
-            include("urnaek/zakaz.php");?>		
-        </div>
+            endif;?>
+            
+        
+        
+            <?php include("urnaek/zakaz.php");?>
+        
 </div>
