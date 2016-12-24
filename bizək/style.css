@@ -42,15 +42,18 @@ body{
 }
 #oeyga{
     position: relative; 
-    display: inline-block;
+    display: block;
     width: 76px;
     height: 76px;
     left:103px;
     top:26px;
+    background: white;
     border-radius:38px;
+    
 }
 #oeyga img{
-    
+    margin-top:16px;
+    margin-left: 12px;
     width:51px;
     height: 44px;
     background: white;
