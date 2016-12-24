@@ -73,9 +73,9 @@
         <a id="telefon" href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>"><?=$qysqa[0]?></a>
         <div class="rows" id="versia">
             <span class="globus"></span>
-            <a class="ru" href="/ru" hreflang="ru">Русский</a>
+            <a class="ru" href="<?= Törlər::$JULLARY['ru'][Törlər::isemnənIdAlu($url[2])]?>" hreflang="ru">Русский</a>
             <span class="tayaq">|</span>
-            <a class="tt" href="/tt" hreflang="tt">Татарча</a>
+            <a class="tt" href="<?= Törlər::$JULLARY['tt'][Törlər::isemnənIdAlu($url[2])]?>" hreflang="tt">Татарча</a>
         </div>
     </div>  
 </div>

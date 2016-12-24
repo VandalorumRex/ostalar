@@ -10,7 +10,7 @@
     </div>
     <div class="rows line">
         <div class="line__title"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?> 
-            <a href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
+            <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
             <img class="line__image" src="/rasem/Layer 6.png" width="335px" height="335px"/>
@@ -20,7 +20,7 @@
     </div>
     <div class="rows line">
         <div class="line__title"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?> 
-            <a href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
+            <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
             <img class="line__image" src="/rasem/basqych/20140927_164447.png" width="335px" height="335px"/>

@@ -56,4 +56,16 @@ class Törlər {
             self::ISHEKLƏR  => '/tt/ишекләр'
         ]
     ];
+    
+    static function isemnənIdAlu($isem){
+        //echo $isem;
+        $ISEM = mb_strtoupper($isem,'UTF-8'); //echo $ISEM;
+        if(in_array($ISEM,self::$ISEMNƏRE['ru'])){
+            $idlar = array_flip(self::$ISEMNƏRE['ru']); //print_r($idlar);
+            return $idlar[$ISEM];
+        } else {
+            $idlar = array_flip(self::$ISEMNƏRE['tt']); //print_r($idlar);
+            return $idlar[$ISEM];
+        }
+    }
 }
