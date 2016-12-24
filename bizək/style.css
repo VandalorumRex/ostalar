@@ -33,7 +33,7 @@ body{
     font-family: OpenSansRegular;
 }
 .clear{clear:both;}
-#bash{   
+.bash{   
    background-color: #242424;
     width: 1400px;
     height: 141px;
