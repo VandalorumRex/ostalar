@@ -75,7 +75,7 @@
         <a id="telefon" href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>">
             <span id="_telephone2" itemprop="telephone"><?=$qysqa[0]?></span>
         </a>
-        <div class="rows" id="versia">
+        <div id="versia">
             <span class="globus"></span>
             <a class="ru" href="<?= Törlər::$JULLARY['ru'][Törlər::isemnənIdAlu(isset($url[2])?$url[2]:'')]?>" hreflang="ru">Русский</a>
             <span class="tayaq">|</span>
