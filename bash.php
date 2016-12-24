@@ -61,7 +61,7 @@
           
 </head>
 <body>
-<div id="bash" class="rows" itemscope itemtype="http://schema.org/LocalBusiness" itemref="_url3">
+<div id="bash" class="rows" itemscope itemtype="http://schema.org/LocalBusiness" >
     <div class="col-md-2">
         <a id="oeyga" href="/"><img src="/rasem/shoerepborghych.png" /> </a>
     </div>
@@ -71,7 +71,9 @@
         <div class="modern"><?=$title?></div>
     </div>
     <div class="col-md-3">
-        <a id="telefon" itemprop="telephone" href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>"><?=$qysqa[0]?></a>
+        <a id="telefon" href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>">
+            <span id="_telephone2" itemprop="telephone"><?=$qysqa[0]?></span>
+        </a>
         <div class="rows" id="versia">
             <span class="globus"></span>
             <a class="ru" href="<?= Törlər::$JULLARY['ru'][Törlər::isemnənIdAlu(isset($url[2])?$url[2]:'')]?>" hreflang="ru">Русский</a>
