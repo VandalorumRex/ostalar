@@ -4,9 +4,9 @@
         <div class="suz">
             <?php echo $APPLICATION->süz;?>
         </div>
-        <div class="töymə-1">
+        <a class="töymə-1" href="#zakaz">
             <?=$APPLICATION->zayavkaJibərü()?>
-        </div>
+        </a>
     </div>
     <div class="rows line">
         <div class="line__title"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?> 
@@ -28,7 +28,7 @@
             <img class="line__image" src="/rasem/basqych/79.png" width="335px" height="335px"/>
         </div>
     </div>
-    <div class="divar">
+    <a class="divar" name="zakaz">
         <?php include ("urnaek/zakaz.php");?>
-    </div>
+    </a>
 </div>
