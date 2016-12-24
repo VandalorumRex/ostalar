@@ -32,7 +32,7 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
         <!--div><gcse:search></gcse:search></div-->
         <table>
             <tr>
-                <td style="vertical-align:middle"><input type="search" class="ezläw" list="törlər" /></td>
+                <td style="vertical-align:middle"><input type="search" class="ezläw" id="ezläw" list="törlər" /></td>
         
                 <td style="vertical-align:middle"><div id="ezlägech"></div></td>
             </tr>
@@ -43,6 +43,10 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
             <?php endforeach;?>
         </datalist>
     </div>
-	
+    <script>
+        $("#ezlägech").click(function(){
+            window.location = "/<?=$APPLICATION->tele?>/"+$('#ezläw').val().toLowerCase();
+        });
+    </script>
         
 </div>
