@@ -32,9 +32,9 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
         <!--div><gcse:search></gcse:search></div-->
         <table>
             <tr>
-                <td style="vertical-align:middle"><input type="search" class="ezläw" id="ezläw" list="törlər" /></td>
+                <td><input type="search" class="ezläw" id="ezläw" list="törlər" /></td>
         
-                <td style="vertical-align:middle"><div id="ezlägech"></div></td>
+                <td><div id="ezlägech"></div></td>
             </tr>
         </table>
         <datalist id="törlər">

@@ -171,7 +171,9 @@ body{
     height: 78px;
     line-height: 78px;
 }
-
+.find_line td{
+    vertical-align: middle;
+}
 .ezläw{
     border-style: solid;
     border-width: 1px;
