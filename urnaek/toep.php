@@ -13,9 +13,9 @@
             <a href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
-            <img class="line__image" src="/rasem/yort/0769.jpg" width="335px" height="335px"/>
-            <img class="line__image" src="/rasem/yort/0785.jpg" width="335px" height="335px"/>
-            <img class="line__image" src="/rasem/yort/0793.jpg" width="335px" height="335px"/>
+            <img class="line__image" src="/rasem/Layer 6.png" width="335px" height="335px"/>
+            <img class="line__image" src="/rasem/Layer 7.png" width="335px" height="335px"/>
+            <img class="line__image" src="/rasem/Layer 8.png" width="335px" height="335px"/>
         </div>
     </div>
     <div class="rows line">
