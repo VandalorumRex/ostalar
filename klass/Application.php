@@ -66,4 +66,11 @@ class Application {
         }
         return 'Отправить заявку';
     }
+    
+    public function address(){
+        if($this->tele=='tt'){
+            return 'Казан';
+        }
+        return 'Казань';
+    }
 }
