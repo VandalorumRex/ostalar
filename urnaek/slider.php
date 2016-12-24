@@ -11,7 +11,7 @@
         echo iconv('utf8','cp1251','<script>var surat = ["'.implode("\",\"",$rəsemnər->zurlary).'"]</script>');?>
 	<div class="clear"></div>
         <div align="center">
-            <?php if($isemnar):
+            <?php /*if($isemnar):
                 $j = 0; $max = 3;
                 foreach ($isemnar as $key=>$isem):?>
                     <div class="suz"><?php echo $taswirlar[$url[2]][$isem]?></div>
@@ -24,7 +24,7 @@
                     $j=$j+$max;?>
                     </div>
             <?php endforeach;
-                else:
+                else:*/
                 foreach($rəsemnər->zurlary as $key=>$surat):?>
 
                             <a class="gallery" rel="group" title="<?=$APPLICATION->title?>" href="<?=$surat?>">
@@ -32,7 +32,7 @@
                             </a>
 
             <?php endforeach;
-            endif;?>
+            //endif;?>
         </div>
         
         
