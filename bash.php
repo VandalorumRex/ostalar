@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title><?=$APPLICATION->title?></title>
+        <script src="/script/jquery-1.11.3.min.js"></script>
         <!--link href="/amazon-style-image-scroller-master/css/amazon_scroller.css" rel="stylesheet" type="text/css"></link-->
-        <script type="text/javascript" src="/amazon-style-image-scroller-master/js/amazon_scroller.js"></script>
+        <!--script type="text/javascript" src="/amazon-style-image-scroller-master/js/amazon_scroller.js"></script-->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -12,7 +13,7 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="/script/jquery-1.11.3.min.js"></script>
+        
         <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
 	<link rel="stylesheet" href="/bizək/style.css"/>
 	<link rel="alternate" hreflang="ru" href="http://ostalar.tk/ru" />
