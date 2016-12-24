@@ -2,7 +2,7 @@
 $menu = simplexml_load_string(file_get_contents("menu.xml"));
 //print '<pre>';print_r($menu);print '</pre>';
 ?>
-<div id="bash_menu">
+<div class="muyyn">
     <div class="col-md-9">
         <ul id="menu_uze">
                 <?php foreach($menu as $item):

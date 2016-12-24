@@ -33,7 +33,7 @@
 
             <?php endforeach;
             endif;?>
-            
+        </div>
         
         
             <?php include("urnaek/zakaz.php");?>

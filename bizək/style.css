@@ -121,7 +121,7 @@ body{
     height: 16px;
     background: url("/rasem/globus.png") no-repeat;
 }
-#bash_menu{
+.muyyn{
     text-transform: uppercase;
     color:white;
     min-width: 400px;
