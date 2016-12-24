@@ -14,7 +14,7 @@
 class Törlər {
     //put your code here
     const SANY      = 5;
-    
+    const BASH_BIT  = 0;
     const YORTLAR   = 1;
     const BASQYCHLAR= 2;
     const CIHAZ     = 3;
@@ -26,6 +26,7 @@ class Törlər {
     ];
     static $ISEMNƏRE = [
         'ru' => [
+            self::BASH_BIT  => '',
             self::YORTLAR   => 'ДОМА',
             self::BASQYCHLAR=> 'ЛЕСТНИЦЫ',
             self::CIHAZ     => 'МЕБЕЛЬ',
@@ -33,6 +34,7 @@ class Törlər {
             self::ISHEKLƏR  => 'ДВЕРИ'
         ],
         'tt' => [
+            self::BASH_BIT  => '',
             self::YORTLAR   => 'ЙОРТЛАР',
             self::BASQYCHLAR=> 'БАСКЫЧЛАР',
             self::CIHAZ     => 'ҖИҺАЗ',
@@ -42,6 +44,7 @@ class Törlər {
     ];
     static $JULLARY = [
         'ru' => [
+            self::BASH_BIT  => '/ru',
             self::YORTLAR   => '/ru/дома',
             self::BASQYCHLAR=> '/ru/лестницы',
             self::CIHAZ     => '/ru/мебель',
@@ -49,6 +52,7 @@ class Törlər {
             self::ISHEKLƏR  => '/ru/двери'
         ],
         'tt' => [
+            self::BASH_BIT  => '/tt',
             self::YORTLAR   => '/tt/йортлар',
             self::BASQYCHLAR=> '/tt/баскычлар',
             self::CIHAZ     => '/tt/җиһаз',
