@@ -73,4 +73,10 @@ class Application {
         }
         return 'Казань';
     }
+    
+    /*public function bəyə($tör){
+        switch ($tör){
+            case:
+        }
+    }*/
 }

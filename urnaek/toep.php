@@ -14,13 +14,13 @@
         </div>
         <div class="rows">
             <div class="line__image" id="bash_bit_yort_1">
-                <div class="bəyə">от 200 тыс.</div>
+                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
              <div class="line__image" id="bash_bit_yort_2">
-                <div class="bəyə">от 200 тыс.</div>
+                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
              <div class="line__image" id="bash_bit_yort_3">
-                <div class="bəyə">от 200 тыс.</div>
+                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
         </div>
     </div>
@@ -30,13 +30,13 @@
         </div>
         <div class="rows">
             <div class="line__image" id="bash_bit_basqych_1">
-                <div class="bəyə">от 50 тыс.</div>
+                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
              <div class="line__image" id="bash_bit_basqych_2">
-                <div class="bəyə">от 50 тыс.</div>
+                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
              <div class="line__image" id="bash_bit_basqych_3">
-                <div class="bəyə">от 50 тыс.</div>
+                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
             <!--img class="line__image" src="/rasem/basqych/20140927_164447.png" width="335px" height="335px"/>
             <img class="line__image" src="/rasem/basqych/88.png" width="335px" height="335px"/>

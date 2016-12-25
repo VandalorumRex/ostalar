@@ -61,6 +61,26 @@ class Törlər {
         ]
     ];
     
+    static $BƏYƏLƏRE = [
+        'ru' => [
+            
+            self::YORTLAR   => 'от 200 тыс.',
+            self::BASQYCHLAR=> 'от 25 тыс.',
+            self::CIHAZ     => 'от 20 тыс.',
+            self::MK        => 'от 15 тыс.',
+            self::ISHEKLƏR  => 'от 10 тыс.'
+        ],
+        'tt' => [
+            
+            self::YORTLAR   => '200 меңнән',
+            self::BASQYCHLAR=> '25 меңнән',
+            self::CIHAZ     => '20 меңнән',
+            self::MK        => '15 меңнән',
+            self::ISHEKLƏR  => '10 меңнән'
+        ]
+    ];
+
+
     static function isemnənIdAlu($isem){
         //echo $isem;
         $ISEM = mb_strtoupper($isem,'UTF-8'); //echo $ISEM;
