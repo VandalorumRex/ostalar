@@ -13,7 +13,7 @@
             <span itemprop="name"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></span>
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
-        <div class="rows">
+        <div class="rows" align="center">
             <div class="line__image" id="bash_bit_yort_1" >
                 <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer6.png</div>
                 <div class="bəyə" itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
@@ -33,7 +33,7 @@
             <span itemprop="name"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></span>
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
-        <div class="rows">
+        <div class="rows" align="center">
             <div class="line__image" id="bash_bit_basqych_1" >
                 <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer9.png</div>
                 <div class="bəyə" itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>

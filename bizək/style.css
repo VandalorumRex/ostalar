@@ -209,9 +209,9 @@ body{
     background-size: 100% 100%;
 }
 .line{
-    max-width: 1197px;
+    max-width: 1289px;
     min-height: 404px;
-    margin: 80px auto 0 auto;
+    margin: 34px auto 0 auto;
 }
 .line__title{
     color:#242424;
@@ -220,17 +220,20 @@ body{
     text-align: left;
     height:36px;
     line-height: 36px;
+    margin-left: 46px;
+    width: 400px;
 }
 .line__image{
     width: 335px;
     height: 335px;
     display: inline-block;
     margin-top: 34px;
-    
+    margin-left:46px;
+    margin-right:46px;
 }
-.line__image:not(:first-child){
+/*.line__image:not(:first-child){
     margin-left:92px;
-}
+}*/
 #bash_bit_yort_1{
     background:rgba(0, 0, 0, 0) url(/rasem/Layer6.png) no-repeat 100% 100%;
 }
@@ -320,15 +323,6 @@ h1#title{
     width:100%;text-align: center;
 }
 
-
-
-#jort{
-    color:#241B18;
-    background:orange;
-    border-radius:3px;
-    padding-left:5px;
-    padding-right:5px;
-}
 #title{float:left;margin-top:16px;}
 ul, li {
     margin:0;
@@ -408,7 +402,7 @@ ul, li {
     min-height:500px;
 }*/
 .suz{
-    width: 726px;
+    max-width: 726px;
     clear: both;
     margin: 0 auto;
     position: relative;
