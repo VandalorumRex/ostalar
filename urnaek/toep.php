@@ -9,7 +9,8 @@
         </a>
     </div>
     <div class="rows line" itemscope itemtype="http://schema.org/Offer">
-        <div class="line__title" itemprop="name"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?> 
+        <div class="line__title">
+            <span itemprop="name"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></span>
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
@@ -24,18 +25,19 @@
             </div>
         </div>
     </div>
-    <div class="rows line">
-        <div class="line__title"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?> 
+    <div class="rows line" itemscope itemtype="http://schema.org/Offer">
+        <div class="line__title">
+            <span itemprop="name"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></span>
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
-            <div class="line__image" id="bash_bit_basqych_1">
+            <div class="line__image" id="bash_bit_basqych_1" itemprop="price">
                 <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
-             <div class="line__image" id="bash_bit_basqych_2">
+             <div class="line__image" id="bash_bit_basqych_2" itemprop="price">
                 <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
-             <div class="line__image" id="bash_bit_basqych_3">
+             <div class="line__image" id="bash_bit_basqych_3" itemprop="price">
                 <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
             <!--img class="line__image" src="/rasem/basqych/20140927_164447.png" width="335px" height="335px"/>
