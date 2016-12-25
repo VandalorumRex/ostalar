@@ -15,12 +15,15 @@
         </div>
         <div class="rows">
             <div class="line__image" id="bash_bit_yort_1" >
+                <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer6.png</div>
                 <div class="bəyə" itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
              <div class="line__image" id="bash_bit_yort_2" >
+                 <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer7.png</div>
                 <div class="bəyə"  itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
              <div class="line__image" id="bash_bit_yort_3">
+                 <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer8.png</div>
                 <div class="bəyə"  itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
         </div>
@@ -31,14 +34,17 @@
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
-            <div class="line__image" id="bash_bit_basqych_1" itemprop="price">
-                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
+            <div class="line__image" id="bash_bit_basqych_1" >
+                <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer9.png</div>
+                <div class="bəyə" itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
-             <div class="line__image" id="bash_bit_basqych_2" itemprop="price">
-                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
+             <div class="line__image" id="bash_bit_basqych_2">
+                <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer10.png</div>
+                <div class="bəyə" itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
-             <div class="line__image" id="bash_bit_basqych_3" itemprop="price">
-                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
+             <div class="line__image" id="bash_bit_basqych_3">
+                 <div itemprop="image" style="display:none;">http://<?=$_SERVER['HTTP_HOST']?>/rasem/Layer11.png</div>
+                <div class="bəyə" itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::BASQYCHLAR]?></div>
             </div>
             <!--img class="line__image" src="/rasem/basqych/20140927_164447.png" width="335px" height="335px"/>
             <img class="line__image" src="/rasem/basqych/88.png" width="335px" height="335px"/>
