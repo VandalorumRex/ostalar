@@ -31,6 +31,9 @@ url("/shrift/OpenSans/OpenSansSemiBoldItalic/OpenSansSemiBoldItalic.ttf") format
 body{
     background:white;
     font-family: OpenSansRegular;
+    max-width: 1400px;
+    clear:both;
+    margin:0 auto;
 }
 .clear{clear:both;}
 .bash{   
