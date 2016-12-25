@@ -46,11 +46,11 @@ body{
     display: block;
     width: 76px;
     height: 76px;
-    margin-left:103px;
+    margin-right:24px;
     margin-top:26px;
     background: white;
     border-radius:38px;
-    
+    float:right;
 }
 #oeyga img{
     margin-top:16px;
