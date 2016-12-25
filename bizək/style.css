@@ -125,24 +125,25 @@ body{
 #versia a:hover{/*font-size:14px;*/color:yellow;}
 .muyyn{
     text-transform: uppercase;
-    color:white;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
     /*min-width: 400px;*/
    
    font-weight: bold;
-   background-color: #fdd835;
-    width: 1400px;
-    height: 78px;
+   background-color: #fdd835 !important;
+    width: 1400px !important;
+    height: 78px !important;
     clear:both;
     margin-left:auto;
     margin-right:auto;
 }
 #menu_uze{
-    display:block;
+    /*display:block;*/
     height: 78px;
     line-height: 78px;
     margin-left: 88px;
 }
-#menu_uze li{display:inline-block;margin-left:20px;height:78px;
+#menu_uze li{/*display:inline-block;*/margin-left:20px;height:78px;
    
 }
 #menu_uze li.saylangan{
@@ -151,24 +152,13 @@ body{
 #menu_uze li.saylangan a{
     color: #777777;
 }
-#menu_uze li ul li{display:block;border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
+#menu_uze li ul li{/*display:block;*/border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
 #menu_uze li a{
     color: #242424;
     font-size: 16px;/* Approximation due to font substitution */
     font-weight: 700;
     font-family: OpenSansBold;
 }
-/*#menu_uze li a:hover{
-    color:white; text-decoration:underline;
-     transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -moz-transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -webkit-transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -o-transform: matrix(1, 0, -0.5, 1, 0, 0);
-    -ms-transform: matrix(1, 0, -0.5, 1, 0, 0); 
-}
-#menu_uze li ul{display:none;position:absolute; border-right:1px solid white; border-left:1px solid white;
-    margin-top:12px;background:url('/rasem/buirana.jpg') ;border-radius:15px;}
-#menu_uze li:hover ul{display:block;}*/
 .find_line{
     height: 78px;
     line-height: 78px;
@@ -434,12 +424,12 @@ ul, li {
 a.gallery img{
    border-radius:20px;
 }
-form{
+/*form{
     clear:both;
     text-align: center;
     margin:0 auto;
-    /*position: fixed;*/
-}
+   
+}*/
 /*input{
     height:30px;
     border:0;
