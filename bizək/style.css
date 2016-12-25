@@ -124,7 +124,7 @@ body{
     background: url("/rasem/globus.png") no-repeat;
 }
 #versia a:hover{/*font-size:14px;*/color:yellow;}
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   .navbar-header {
       float: none;
   }
