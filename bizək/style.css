@@ -242,6 +242,18 @@ body{
 #bash_bit_yort_3{
     background:rgba(0, 0, 0, 0) url(/rasem/Layer8.png) no-repeat 100% 100%;
 }
+#bash_bit_basqych_1{
+    background:rgba(0, 0, 0, 0) url(/rasem/Layer9.png) no-repeat;
+    background-size: 100% 100%;
+}
+#bash_bit_basqych_2{
+    background:rgba(0, 0, 0, 0) url(/rasem/Layer10.png) no-repeat;
+    background-size: 100% 100%;
+}
+#bash_bit_basqych_3{
+    background:rgba(0, 0, 0, 0) url(/rasem/Layer11.png) no-repeat;
+    background-size: 100% 100%;
+}
 .barysyn_kürsət{
     font-size: 20px;
 }

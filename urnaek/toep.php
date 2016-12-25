@@ -29,9 +29,18 @@
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::BASQYCHLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
-            <img class="line__image" src="/rasem/basqych/20140927_164447.png" width="335px" height="335px"/>
+            <div class="line__image" id="bash_bit_basqych_1">
+                <div class="bəyə">от 50 тыс.</div>
+            </div>
+             <div class="line__image" id="bash_bit_basqych_2">
+                <div class="bəyə">от 50 тыс.</div>
+            </div>
+             <div class="line__image" id="bash_bit_basqych_3">
+                <div class="bəyə">от 50 тыс.</div>
+            </div>
+            <!--img class="line__image" src="/rasem/basqych/20140927_164447.png" width="335px" height="335px"/>
             <img class="line__image" src="/rasem/basqych/88.png" width="335px" height="335px"/>
-            <img class="line__image" src="/rasem/basqych/79.png" width="335px" height="335px"/>
+            <img class="line__image" src="/rasem/basqych/79.png" width="335px" height="335px"/-->
         </div>
     </div>
     
