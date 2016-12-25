@@ -81,14 +81,14 @@ body{
     text-align: left;
 }
 #telefon{
-    /*position: relative;*/
+    float:right;
     background: url('/rasem/trubka.png') no-repeat;
     background-size: 32px 32px;
     color: #fefefe;
     font-size:47px;
     display: block;
     margin-top:36px;
-    margin-left:-14px;
+    margin-right:80px;
     padding-left:58px;
     height:32px;
     line-height:32px;
@@ -98,9 +98,9 @@ body{
 }
 
 #versia{
-    
+    float:right;
     margin-top: 29px;
-    margin-left: 90px;
+    margin-right: 80px;
     display: block;
     height:16px;
     line-height: 16px;
