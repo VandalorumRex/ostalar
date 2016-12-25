@@ -8,19 +8,19 @@
             <?=$APPLICATION->zayavkaJibərü()?>
         </a>
     </div>
-    <div class="rows line">
-        <div class="line__title"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?> 
+    <div class="rows line" itemscope itemtype="http://schema.org/Offer">
+        <div class="line__title" itemprop="name"><?=Törlər::$ISEMNƏRE[$APPLICATION->tele][Törlər::YORTLAR]?> 
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
-            <div class="line__image" id="bash_bit_yort_1">
-                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
+            <div class="line__image" id="bash_bit_yort_1" >
+                <div class="bəyə" itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
-             <div class="line__image" id="bash_bit_yort_2">
-                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
+             <div class="line__image" id="bash_bit_yort_2" >
+                <div class="bəyə"  itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
              <div class="line__image" id="bash_bit_yort_3">
-                <div class="bəyə"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
+                <div class="bəyə"  itemprop="price"><?=Törlər::$BƏYƏLƏRE[$APPLICATION->tele][Törlər::YORTLAR]?></div>
             </div>
         </div>
     </div>
