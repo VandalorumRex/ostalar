@@ -13,9 +13,9 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 	<!--a href="#" class="navbar-brand">БАШ</a-->
     </div>
     
-    <div id="navbarCollapse" class="collapse navbar-collapse">
+    <div id="navbarCollapse" class="collapse navbar-collapse menü">
         
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" id="menu_uze">
                 <?php foreach($menu as $item):
                     $it = (array)$item;
                     $name = $APPLICATION->tele=='ru'?$it['@attributes']['name']:$it['@attributes']['tt'];
@@ -38,7 +38,7 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
                     </li>
                 <?php endforeach?>
         </ul>
-                     <form role="search" class="navbar-form navbar-right">
+                     <form role="search" class="navbar-form navbar-right find_line">
                         <!--div><gcse:search></gcse:search></div-->
                         <div class="form-group col-md-12">
                             <table>

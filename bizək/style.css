@@ -131,19 +131,24 @@ body{
    
    font-weight: bold;
    background-color: #fdd835 !important;
-    width: 1400px !important;
-    height: 78px !important;
+    max-width: 1400px !important;
+    min-height: 78px !important;
     clear:both;
     margin-left:auto;
     margin-right:auto;
 }
+.menü{
+    background-color: #fdd835 !important;
+}
+
 #menu_uze{
     /*display:block;*/
-    height: 78px;
+    background-color: #fdd835 !important;
+    min-height: 78px;
     line-height: 78px;
     margin-left: 88px;
 }
-#menu_uze li{/*display:inline-block;*/margin-left:20px;height:78px;
+#menu_uze li{/*display:inline-block;*/margin-left:20px;min-height:78px;
    
 }
 #menu_uze li.saylangan{
@@ -152,7 +157,7 @@ body{
 #menu_uze li.saylangan a{
     color: #777777;
 }
-#menu_uze li ul li{/*display:block;*/border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}
+/*#menu_uze li ul li{border-bottom:1px solid white;padding:5px;margin:0;border-radius:15px;}*/
 #menu_uze li a{
     color: #242424;
     font-size: 16px;/* Approximation due to font substitution */
@@ -160,8 +165,11 @@ body{
     font-family: OpenSansBold;
 }
 .find_line{
-    height: 78px;
+    background-color: #fdd835 !important;
+    min-height: 78px;
     line-height: 78px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 .find_line td{
     vertical-align: middle;
@@ -424,12 +432,12 @@ ul, li {
 a.gallery img{
    border-radius:20px;
 }
-/*form{
+.divar form{
     clear:both;
     text-align: center;
     margin:0 auto;
    
-}*/
+}
 /*input{
     height:30px;
     border:0;
