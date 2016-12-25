@@ -124,44 +124,9 @@ body{
     background: url("/rasem/globus.png") no-repeat;
 }
 #versia a:hover{/*font-size:14px;*/color:yellow;}
-@media (max-width: 1025px) {
-  .navbar-header {
-      float: none;
-  }
-  .navbar-left,.navbar-right {
-      float: none !important;
-  }
-  .navbar-toggle {
-      display: block;
-  }
-  .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
-  .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
-  }
-  .navbar-nav>li {
-      float: none;
-  }
-  .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
-  .collapse.in{
-      display:block !important;
-  }
-}
+
 .menü{
-    background-color: #fdd835 !important;
+    
 }
 .muyyn{
     text-transform: uppercase;
@@ -180,8 +145,7 @@ body{
 
 
 #menu_uze{
-    /*display:block;*/
-    background-color: #fdd835 !important;
+    
     min-height: 78px;
     line-height: 78px;
     margin-left: 88px;
@@ -205,7 +169,7 @@ body{
      
 }
 .find_line{
-    background-color: #fdd835 !important;
+    
     min-height: 78px;
     line-height: 78px;
     margin-top: 0 !important;
@@ -232,6 +196,74 @@ body{
     margin-left: 5px;
     
     cursor:pointer;
+}
+@media (max-width: 1400px) {
+  .navbar-header {
+      float: none;
+      background-color: #fdd835;
+      
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+      height:60px;
+      width: 60px;
+      background-color: #DEDEDE;
+      padding-left:15px;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+  #menu_uze{
+    
+    
+    margin-left: 0;
+   
+    }
+    #menu_uze li{
+        margin-left:0;
+        
+    }
+    #menu_uze li a{
+        text-align: center;
+        font-size: 40px;
+        line-height: 36px;
+    }
+  #menu_uze li.saylangan{
+    background: #DEDEDE;
+    border-bottom: 0;
+  }
+  .find_line,
+  .find_line table{
+      width:100%;
+  }
+  .ezläw{
+      width:100%;
+  }
 }
 .tən{
     max-width: 1400px;
