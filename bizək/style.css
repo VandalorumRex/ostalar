@@ -35,8 +35,8 @@ body{
 .clear{clear:both;}
 .bash{   
    background-color: #242424;
-    width: 1400px;
-    height: 141px;
+    max-width: 1400px;
+    min-height: 141px;
     clear:both;
     margin:0 auto;
 }
@@ -194,23 +194,23 @@ body{
     cursor:pointer;
 }
 .tən{
-    width: 1400px;
+    max-width: 1400px;
     clear:both;
     margin:0 auto;
     
     top: 219px;
 }
 .yzba{
-    width: 1400px;
-    height: 436px;
+    max-width: 1400px;
+    min-height: 436px;
     /*clear:both;
     margin:0 auto;*/
     background: url("/rasem/yzba.png") no-repeat;
     background-size: 100% 100%;
 }
 .line{
-    width: 1197px;
-    height: 404px;
+    max-width: 1197px;
+    min-height: 404px;
     margin: 80px auto 0 auto;
 }
 .line__title{
@@ -346,21 +346,37 @@ ul, li {
 .divar{
     display: block;
     margin-top: 80px;
-    width: 1400px;
-    height: 491px;
+    max-width: 1400px;
+    min-height: 491px;
     background: url("/rasem/divar.png");
     background-size: 100% 100%;
 }
+.divar form{
+    clear:both;
+    text-align: center;
+    margin:0 auto;
+   max-width: 1400px;
+   
+}
+.divar p{
+    max-width: 815px;
+    clear:both;
+    text-align: center;
+    margin:0 auto;
+}
 .input-text{
+    
     border-radius: 35px;
     background-color: #ffffff;
-    width: 815px;
+    max-width: 815px;
+    width:100%;
     height: 71px;
     font-family: OpenSansBold;
     color:#b6b6b6;
     font-size: 21px;/* Approximation due to font substitution */
     font-weight: 700;
     text-align: center;
+    
 }
 .input-text#isem{
     margin-top: 100px;
@@ -369,12 +385,14 @@ ul, li {
     margin-top: 40px;
 }
 .input-button{
+   
+    
     text-transform: uppercase;
     margin-top: 40px;
     border-radius: 35px;
-    background-color:
-    #fdd835;
-    width: 815px;
+    background-color: #fdd835;
+    max-width: 815px;
+    width:100%;
     height: 71px;
     font-family: OpenSansBold;
     color: #000000;
@@ -432,35 +450,8 @@ ul, li {
 a.gallery img{
    border-radius:20px;
 }
-.divar form{
-    clear:both;
-    text-align: center;
-    margin:0 auto;
-   
-}
-/*input{
-    height:30px;
-    border:0;
-    border-radius:10px;
-    font-size:16px;
-    
-}*/
-/*input[type="text"]{
-    margin-right:50px;
-    padding-left:20px;
-}*/
-/*input[type="submit"]{
-    cursor:pointer;
-    color:white;
-    background:linear-gradient(to bottom right, #e4ac20 0%, #e28820 100%);
-    
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-input[type="submit"]:hover{
-    background:linear-gradient(to bottom right, #e28720 0%, #f16e24 100%);
-}*/
+
+
 ::-webkit-input-placeholder {
    text-align: center;
 }
