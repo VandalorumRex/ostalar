@@ -4,7 +4,7 @@ $menu = simplexml_load_string(file_get_contents("menu.xml"));
 ?>
 <nav role="navigation" class="navbar navbar-default muyyn">
     <div class="navbar-header">
-	<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+	<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle" style="float:left !important">
 	    <span class="sr-only">Toggle navigation</span>
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
