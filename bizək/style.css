@@ -148,6 +148,7 @@ body{
     min-height: 78px;
     line-height: 78px;
     margin-left: 88px;
+   
 }
 #menu_uze li{/*display:inline-block;*/margin-left:20px;min-height:78px;
    
@@ -164,6 +165,7 @@ body{
     font-size: 16px;/* Approximation due to font substitution */
     font-weight: 700;
     font-family: OpenSansBold;
+     
 }
 .find_line{
     background-color: #fdd835 !important;
@@ -222,7 +224,7 @@ body{
     height:36px;
     line-height: 36px;
     margin-left: 46px;
-    width: 400px;
+    
 }
 .line__image{
     width: 335px;
