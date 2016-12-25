@@ -97,7 +97,7 @@ body{
 }
 
 #versia{
-    /*position: relative;*/
+    
     margin-top: 29px;
     margin-left: 90px;
     display: block;
@@ -228,13 +228,41 @@ body{
     height: 335px;
     display: inline-block;
     margin-top: 34px;
+    
 }
 .line__image:not(:first-child){
     margin-left:92px;
 }
+#bash_bit_yort_1{
+    background:rgba(0, 0, 0, 0) url(/rasem/Layer6.png) no-repeat 100% 100%;
+}
+#bash_bit_yort_2{
+    background:rgba(0, 0, 0, 0) url(/rasem/Layer7.png) no-repeat 100% 100%;
+}
+#bash_bit_yort_3{
+    background:rgba(0, 0, 0, 0) url(/rasem/Layer8.png) no-repeat 100% 100%;
+}
 .barysyn_kürsət{
     font-size: 20px;
 }
+.bəyə{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #242424;
+    background-color: #fdd835;
+    width: 129px;
+    height: 47px;
+    margin-left: 195px;
+    margin-top: 275px;
+    border-radius: 23px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+    font-size: 17px;/* Approximation due to font substitution */
+    font-weight: 700;
+    font-family: OpenSansBold;
+}
+
 .uzak{
     max-width: 1200px;
     min-width: 400px;

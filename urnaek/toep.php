@@ -13,9 +13,15 @@
             <a class="barysyn_kürsət" href="<?=Törlər::$JULLARY[$APPLICATION->tele][Törlər::YORTLAR]?>"><?=$APPLICATION->barysynQaraw()?></a>
         </div>
         <div class="rows">
-            <img class="line__image" src="/rasem/Layer 6.png" width="335px" height="335px"/>
-            <img class="line__image" src="/rasem/Layer 7.png" width="335px" height="335px"/>
-            <img class="line__image" src="/rasem/Layer 8.png" width="335px" height="335px"/>
+            <div class="line__image" id="bash_bit_yort_1">
+                <div class="bəyə">от 200 тыс.</div>
+            </div>
+             <div class="line__image" id="bash_bit_yort_2">
+                <div class="bəyə">от 200 тыс.</div>
+            </div>
+             <div class="line__image" id="bash_bit_yort_3">
+                <div class="bəyə">от 200 тыс.</div>
+            </div>
         </div>
     </div>
     <div class="rows line">
