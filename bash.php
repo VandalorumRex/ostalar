@@ -15,11 +15,11 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
         <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/bizək/style.css?t=1"/>
+	<link rel="stylesheet" type="text/css" href="/bizək/style.css?t=2"/>
 	<link rel="alternate" hreflang="ru" href="http://ostalar.tk/ru" />
 	<link rel="alternate" hreflang="tt" href="http://ostalar.tk/tt" />
 	<meta charset="utf-8"/>
-        <meta name="viewport" content="width=1400">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="yandex-verification" content="43e48888c64838c9" />
 	<meta name="yandex-verification" content="68fd5fd180d98e78" />
 	<meta name="yandex-verification" content="4279c116cd7a9e02" />
