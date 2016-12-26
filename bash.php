@@ -15,7 +15,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
         <script type="text/javascript" src="/script/jquery.maskedinput.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/bizək/style.css?t=8"/>
+	<link rel="stylesheet" type="text/css" href="/bizək/style.css?t=9"/>
 	<link rel="alternate" hreflang="ru" href="http://ostalar.tk/ru" />
 	<link rel="alternate" hreflang="tt" href="http://ostalar.tk/tt" />
 	<meta charset="utf-8"/>
@@ -71,7 +71,7 @@
         <?php $title=$APPLICATION->tele=='ru'?'Современные деревянные конструкции в строительстве':'Төзелештәге хәзерге агач конструкцияләр'?>
         <div class="modern"><?=$title?></div>
     </div>
-    <div class="col-md-5" >
+    <div class="col-md-5 uñ-qolaq">
         <a id="telefon" href="tel:<?=str_replace(array(' ','(',')','-'),'',$phone[0])?>">
             <span id="_telephone2" itemprop="telephone"><?=$qysqa[0]?></span>
         </a>
