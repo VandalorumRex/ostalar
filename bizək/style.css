@@ -124,9 +124,10 @@ body{
     background: url("/rasem/globus.png") no-repeat;
 }
 #versia a:hover{/*font-size:14px;*/color:yellow;}
-
-.menü{
-    
+@media (min-width: 1401px) {
+    .menü{
+        background-color: #fdd835 !important;
+    }
 }
 .muyyn{
     text-transform: uppercase;
