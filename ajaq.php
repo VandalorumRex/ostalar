@@ -1,5 +1,5 @@
 <div class="ayaq">
-    <div class="col-md-8">
+    <div class="col-md-3" style="max-width:300px;">
         <div class="ayaq__title row"><?=Törlər::$ÜZLƏRE[$APPLICATION->tele]?></div>
         <?php for($i=1;$i<=Törlər::SANY;$i++):?>
         <a class="row tör" href="<?= Törlər::$JULLARY[$APPLICATION->tele][$i]?>">
@@ -7,7 +7,8 @@
         </a>
         <?php endfor;?>
     </div>
-    <div class="col-md-4">
+    
+    <div class="col-md-3" style="float:right">
         <div class="ayaq__title row"><?= Kontaktlar::$ÜZLƏRE[$APPLICATION->tele]?></div>
         <?php for($i=1;$i<= Kontaktlar::SANY;$i++):?>
         <a class="row kontakt" href="tel:<?=Kontaktlar::$OZYNNARY[$i];?>">
